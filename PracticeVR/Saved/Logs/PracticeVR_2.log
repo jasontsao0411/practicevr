@@ -1,0 +1,578 @@
+﻿[2016.02.17-22.53.00:942][  0]Log file open, 02/17/16 17:53:00
+[2016.02.17-22.53.00:942][  0]LogInit:Display: Running engine for game: PracticeVR
+[2016.02.17-22.53.00:942][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.17-22.53.00:942][  0]LogInit:Display: RandInit(121531630) SRandInit(121531632).
+[2016.02.17-22.53.00:942][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.17-22.53.00:942][  0]LogStats: Stats thread started at 0.070098
+[2016.02.17-22.53.00:942][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.17-22.53.00:942][  0]LogInit: API Version: 2758231
+[2016.02.17-22.53.00:942][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.17-22.53.00:942][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.17-22.53.00:942][  0]LogInit: Build Configuration: Development
+[2016.02.17-22.53.00:942][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.17-22.53.00:942][  0]LogInit: Command line:  
+[2016.02.17-22.53.00:942][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.17-22.53.00:942][  0]LogInit: Rocket: 1
+[2016.02.17-22.53.00:947][  0]LogInit: Using libcurl 7.41.0
+[2016.02.17-22.53.00:947][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.17-22.53.00:947][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.17-22.53.00:947][  0]LogInit:  - other features:
+[2016.02.17-22.53.00:947][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.17-22.53.00:947][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.17-22.53.00:947][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.17-22.53.00:947][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.17-22.53.00:947][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.17-22.53.00:947][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.17-22.53.00:947][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.17-22.53.00:947][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.17-22.53.00:947][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.17-22.53.00:947][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.17-22.53.00:953][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.17-22.53.00:957][  0]LogInit: Object subsystem initialized
+[2016.02.17-22.53.00:958][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.17-22.53.00:958][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.17-22.53.00:965][  0]LogInit: Computer: ETC-WIN10-006
+[2016.02.17-22.53.00:965][  0]LogInit: User: demo
+[2016.02.17-22.53.00:965][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.17-22.53.00:965][  0]LogInit: High frequency timer resolution =3.507525 MHz
+[2016.02.17-22.53.00:965][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.02.17-22.53.00:965][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.17-22.53.00:965][  0]LogMemory: Process Physical Memory: 55.80 MB used, 55.80 MB peak
+[2016.02.17-22.53.00:965][  0]LogMemory: Process Virtual Memory: 56.83 MB used, 56.83 MB peak
+[2016.02.17-22.53.00:965][  0]LogMemory: Physical Memory: 4364.44 MB used, 16326.10 MB total
+[2016.02.17-22.53.00:965][  0]LogMemory: Virtual Memory: 379.68 MB used, 134217728.00 MB total
+[2016.02.17-22.53.00:989][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.17-22.53.01:328][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 745 (Feature Level 11_0)
+[2016.02.17-22.53.01:328][  0]LogD3D11RHI: Adapter has 4035MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 2 output[s]
+[2016.02.17-22.53.01:329][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.17-22.53.01:329][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 0 output[s]
+[2016.02.17-22.53.01:329][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.17-22.53.01:332][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.17-22.53.01:332][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.17-22.53.01:343][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.17-22.53.01:354][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Intermediate/Shaders/WorkingDirectory/6688/).
+[2016.02.17-22.53.01:354][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/demo/AppData/Local/Temp/UnrealShaderWorkingDir/92214B68485D8C78EA89D1BA44F1B296/'.
+[2016.02.17-22.53.01:354][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.17-22.53.01:940][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.17-22.53.01:944][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.17-22.53.01:947][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.17-22.53.01:951][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.17-22.53.01:954][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.17-22.53.01:956][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.17-22.53.01:959][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.17-22.53.01:961][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.17-22.53.01:963][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.17-22.53.01:965][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.17-22.53.01:968][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.17-22.53.01:973][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.17-22.53.01:973][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.17-22.53.01:973][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.17-22.53.01:989][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.17-22.53.01:991][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.17-22.53.01:993][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.17-22.53.01:995][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.17-22.53.01:995][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.17-22.53.02:058][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.17-22.53.02:094][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/demo/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.17-22.53.02:094][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/demo/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.17-22.53.02:094][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.17-22.53.02:094][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.17-22.53.02:094][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.17-22.53.02:094][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.17-22.53.02:139][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.17-22.53.02:151][  0]LogDerivedDataCache: Using Local data cache path C:/Users/demo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.17-22.53.02:286][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.17-22.53.02:287][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.17-22.53.02:368][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.17-22.53.02:369][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.17-22.53.02:530][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.17-22.53.03:092][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.17-22.53.03:182][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2016.02.17-22.53.03:316][  0]SourceControl: Info Source control is disabled
+[2016.02.17-22.53.03:348][  0]SourceControl: Info Source control is disabled
+[2016.02.17-22.53.03:363][  0]SourceControl: Info Source control is disabled
+[2016.02.17-22.53.03:376][  0]SourceControl: Info Source control is disabled
+[2016.02.17-22.53.03:534][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.02.17-22.53.03:534][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.02.17-22.53.03:578][  0]LogEngine: Initializing Engine...
+[2016.02.17-22.53.03:579][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.17-22.53.04:969][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-452284F5
+[2016.02.17-22.53.05:059][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.17-22.53.05:064][  0]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-22.53.05:075][  0]LogInit: FAudioDevice initialized.
+[2016.02.17-22.53.05:092][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/demo/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.17-22.53.05:097][  0]LogInit: Texture streaming: Enabled
+[2016.02.17-22.53.05:101][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.17-22.53.05:101][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.17-22.53.05:101][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId dace05c344f3165ba6907d8fb994670d|36cf517b4d86471bb12e26a25eb81198|c0875fa7-5c44-4913-af9b-c7a689be2d5a
+[2016.02.17-22.53.05:101][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.17-22.53.05:108][  0]LogInit: Transaction tracking system initialized
+[2016.02.17-22.53.05:129][  0]BlueprintLog: New page: Editor Load
+[2016.02.17-22.53.05:195][  0]LocalizationService: Info Localization service is disabled
+[2016.02.17-22.53.05:257][  0]LogConsoleResponse:Display: 
+[2016.02.17-22.53.05:339][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.17-22.53.05:382][  0]LogFileCache: Scanning file cache for directory 'C:/Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/' took 0.01s
+[2016.02.17-22.53.05:382][  0]SourceControl: Info Source control is disabled
+[2016.02.17-22.53.05:382][  0]Cmd: MAP LOAD FILE="../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.17-22.53.05:382][  0]LightingResults: New page: Lighting Build
+[2016.02.17-22.53.05:384][  0]MapCheck: New page: Map Check
+[2016.02.17-22.53.05:384][  0]LightingResults: New page: Lighting Build
+[2016.02.17-22.53.05:394][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9F4127B00
+[2016.02.17-22.53.05:653][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.17-22.53.05:658][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.17-22.53.05:658][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.17-22.53.05:688][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.159ms to complete.
+[2016.02.17-22.53.05:688][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.306
+[2016.02.17-22.53.05:779][  0]LogCollectionManager: Loaded 0 collections in 0.002687 seconds
+[2016.02.17-22.53.05:817][  0]LogFileCache: Scanning file cache for directory 'C:/Users/demo/Documents/GitHub/practicevr/PracticeVR/Saved/Collections/' took 0.01s
+[2016.02.17-22.53.05:817][  0]LogFileCache: Scanning file cache for directory 'C:/Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/Developers/demo/Collections/' took 0.01s
+[2016.02.17-22.53.05:817][  0]LogFileCache: Scanning file cache for directory 'C:/Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/Collections/' took 0.01s
+[2016.02.17-22.53.05:817][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.02.17-22.53.05:823][  0]LogContentBrowser: Native class hierarchy populated in 0.0057 seconds. Added 1893 classes and 338 folders.
+[2016.02.17-22.53.05:828][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.02.17-22.53.05:857][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.02.17-22.53.05:860][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.02.17-22.53.05:895][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.17-22.53.05:897][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.17-22.53.05:920][  0]LogLoad: Full Startup: 5.30 seconds (BP compile: 0.03 seconds)
+[2016.02.17-22.53.05:930][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.17-22.53.05:966][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.17-22.53.06:094][  2]LogRenderer: Reallocating scene render targets to support 872x428 (Frame:2).
+[2016.02.17-22.53.06:201][  3]LogAssetRegistry: Asset discovery search completed in 3.0289 seconds
+[2016.02.17-22.53.06:201][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.17-22.53.06:201][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
+[2016.02.17-22.53.11:186][392]LogAIModule: Creating AISystem for world VR_Level
+[2016.02.17-22.53.11:206][392]Cmd: MAP LOAD FILE="../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/Levels/VR_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.17-22.53.11:206][392]LightingResults: New page: Lighting Build
+[2016.02.17-22.53.11:218][392]LoadErrors: New page: Loading map: VR_Level.umap
+[2016.02.17-22.53.11:218][392]MapCheck: New page: Map Check
+[2016.02.17-22.53.11:218][392]LightingResults: New page: Lighting Build
+[2016.02.17-22.53.11:228][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9E9D1B560
+[2016.02.17-22.53.11:252][392]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.17-22.53.11:275][392]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.17-22.53.11:307][392]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.493ms to complete.
+[2016.02.17-22.53.11:307][392]LogFileHelpers: Loading map 'VR_Level' took 0.102
+[2016.02.17-22.53.13:722][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.17-22.53.13:722][601]PIE: New page: PIE session: VR_Level (Feb 17, 2016, 12:53:13 PM)
+[2016.02.17-22.53.13:722][601]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VR_Level
+[2016.02.17-22.53.13:724][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001811s)
+[2016.02.17-22.53.13:725][601]LogAIModule: Creating AISystem for world VR_Level
+[2016.02.17-22.53.13:725][601]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2016.02.17-22.53.13:725][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VR_Level.VR_Level to /Game/Levels/UEDPIE_0_VR_Level.VR_Level (0.002632s)
+[2016.02.17-22.53.13:739][601]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-22.53.13:743][601]LogInit: FAudioDevice initialized.
+[2016.02.17-22.53.13:853][601]LogWorld: Game class is 'VR_GameMode_C'
+[2016.02.17-22.53.13:855][601]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VR_Level.VR_Level up for play (max tick rate 0) at 2016.02.17-17.53.13
+[2016.02.17-22.53.13:855][601]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.53.13:855][601]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.53.13:855][601]LogWorld: Bringing up level for play took: 0.001504
+[2016.02.17-22.53.13:872][601]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VR_Level -0.294
+[2016.02.17-22.53.13:873][601]LogRenderer: Reallocating scene render targets to support 1220x600 (Frame:565).
+[2016.02.17-22.53.13:890][602]LogRenderer: Reallocating scene render targets to support 3024x1680 (Frame:566).
+[2016.02.17-22.53.13:935][603]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 566/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.56.24:434][700]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F98B566660
+[2016.02.17-22.56.30:835][116]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 741/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.56.33:476][314]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 741/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.56.33:625][326]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 741/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.56.34:350][381]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 741/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.56.35:326][430]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 760/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.56.35:447][431]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.17-22.56.35:775][431]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.02.17-22.56.37:745][537]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 741/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.56.39:974][681]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 741/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.56.47:628][996]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 761/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.56.52:490][139]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 761/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.56.53:637][175]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 761/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.57.04:911][538]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 761/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.57.10:676][705]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 761/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.57.12:275][754]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 761/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.57.16:631][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset" SILENT=true
+[2016.02.17-22.57.16:655][879]LogSavePackage: Save=18.224531ms
+[2016.02.17-22.57.16:655][879]LogSavePackage: Moving '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Saved/VR_Pawn36F8A2AE445A7CB8064D90BDA1AB861A.tmp' to '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset'
+[2016.02.17-22.57.16:657][879]LogSavePackage: Total save time: 24.795543ms
+[2016.02.17-22.57.16:657][879]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset
+[2016.02.17-22.57.16:673][880]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 761/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.57.17:724][928]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.17-22.57.17:728][928]LogPlayLevel: [PlayLevel] Compiling VR_Pawn before play...
+[2016.02.17-22.57.17:763][928]LogPlayLevel: PlayLevel: Blueprint regeneration took 38 ms (1 blueprints)
+[2016.02.17-22.57.17:788][928]PIE: New page: PIE session: VR_Level (Feb 17, 2016, 12:57:17 PM)
+[2016.02.17-22.57.17:788][928]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VR_Level
+[2016.02.17-22.57.17:790][928]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001723s)
+[2016.02.17-22.57.17:791][928]LogAIModule: Creating AISystem for world VR_Level
+[2016.02.17-22.57.17:791][928]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2016.02.17-22.57.17:791][928]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VR_Level.VR_Level to /Game/Levels/UEDPIE_0_VR_Level.VR_Level (0.002433s)
+[2016.02.17-22.57.17:816][928]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-22.57.17:821][928]LogInit: FAudioDevice initialized.
+[2016.02.17-22.57.17:927][928]LogWorld: Game class is 'VR_GameMode_C'
+[2016.02.17-22.57.17:930][928]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VR_Level.VR_Level up for play (max tick rate 0) at 2016.02.17-17.57.17
+[2016.02.17-22.57.17:930][928]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.57.17:930][928]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.57.17:930][928]LogWorld: Bringing up level for play took: 0.001817
+[2016.02.17-22.57.17:959][928]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VR_Level -0.212
+[2016.02.17-22.57.17:970][930]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 641/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.57.43:181][369]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9AB704400
+[2016.02.17-22.57.55:386][758]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 761/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.57.57:363][844]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 761/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.57.57:866][867]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 761/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.58.00:129][967]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 761/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.58.01:559][ 58]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 760/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.58.02:518][101]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 760/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.58.03:140][131]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 760/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.58.08:615][449]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 760/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.58.16:324][918]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.17-22.58.16:388][920]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 741/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.58.21:111][408]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 760/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.58.25:896][764]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 760/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.58.26:907][808]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 760/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.58.28:890][911]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 741/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.58.30:121][991]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 741/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.58.33:107][ 84]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 761/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.58.37:325][209]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 761/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.58.40:861][335]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 761/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.58.46:816][504]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset" SILENT=true
+[2016.02.17-22.58.46:840][504]LogSavePackage: Save=18.038931ms
+[2016.02.17-22.58.46:840][504]LogSavePackage: Moving '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Saved/VR_PawnD6BF5DCD42BA11363772A9A5C7A30628.tmp' to '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset'
+[2016.02.17-22.58.46:843][504]LogSavePackage: Total save time: 24.878513ms
+[2016.02.17-22.58.46:843][504]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset
+[2016.02.17-22.58.46:856][505]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 761/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.58.47:995][556]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.17-22.58.47:999][556]LogPlayLevel: [PlayLevel] Compiling VR_Pawn before play...
+[2016.02.17-22.58.48:035][556]LogPlayLevel: PlayLevel: Blueprint regeneration took 39 ms (1 blueprints)
+[2016.02.17-22.58.48:057][556]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9C42B6200
+[2016.02.17-22.58.48:060][556]PIE: New page: PIE session: VR_Level (Feb 17, 2016, 12:58:48 PM)
+[2016.02.17-22.58.48:060][556]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VR_Level
+[2016.02.17-22.58.48:061][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001530s)
+[2016.02.17-22.58.48:062][556]LogAIModule: Creating AISystem for world VR_Level
+[2016.02.17-22.58.48:062][556]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2016.02.17-22.58.48:062][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VR_Level.VR_Level to /Game/Levels/UEDPIE_0_VR_Level.VR_Level (0.002374s)
+[2016.02.17-22.58.48:091][556]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-22.58.48:095][556]LogInit: FAudioDevice initialized.
+[2016.02.17-22.58.48:195][556]LogWorld: Game class is 'VR_GameMode_C'
+[2016.02.17-22.58.48:197][556]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VR_Level.VR_Level up for play (max tick rate 0) at 2016.02.17-17.58.48
+[2016.02.17-22.58.48:197][556]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.58.48:197][556]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.58.48:197][556]LogWorld: Bringing up level for play took: 0.001334
+[2016.02.17-22.58.48:216][556]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VR_Level 0.044
+[2016.02.17-22.58.48:247][558]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 797/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.59.06:184][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9AB705C60
+[2016.02.17-22.59.23:001][544]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 794/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.59.26:643][650]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 794/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.59.32:704][810]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 794/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.59.41:772][ 44]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 794/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.59.43:149][ 84]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 794/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.59.43:752][ 99]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 794/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.59.44:402][115]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 794/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.59.45:000][130]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 794/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.59.46:257][161]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 794/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.59.47:426][191]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 794/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.59.48:279][212]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 794/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.59.49:043][231]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 794/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.59.58:228][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset" SILENT=true
+[2016.02.17-22.59.58:249][474]LogSavePackage: Save=18.205715ms
+[2016.02.17-22.59.58:249][474]LogSavePackage: Moving '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Saved/VR_PawnA3835B59411A7443E52D968078E44DCC.tmp' to '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset'
+[2016.02.17-22.59.58:251][474]LogSavePackage: Total save time: 20.895075ms
+[2016.02.17-22.59.58:251][474]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset
+[2016.02.17-22.59.58:263][475]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 794/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-22.59.59:653][536]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.17-22.59.59:657][536]LogPlayLevel: [PlayLevel] Compiling VR_Pawn before play...
+[2016.02.17-22.59.59:695][536]LogPlayLevel: PlayLevel: Blueprint regeneration took 41 ms (1 blueprints)
+[2016.02.17-22.59.59:720][536]PIE: New page: PIE session: VR_Level (Feb 17, 2016, 12:59:59 PM)
+[2016.02.17-22.59.59:720][536]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VR_Level
+[2016.02.17-22.59.59:721][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001284s)
+[2016.02.17-22.59.59:722][536]LogAIModule: Creating AISystem for world VR_Level
+[2016.02.17-22.59.59:722][536]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2016.02.17-22.59.59:722][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VR_Level.VR_Level to /Game/Levels/UEDPIE_0_VR_Level.VR_Level (0.002151s)
+[2016.02.17-22.59.59:755][536]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.17-22.59.59:760][536]LogInit: FAudioDevice initialized.
+[2016.02.17-22.59.59:862][536]LogWorld: Game class is 'VR_GameMode_C'
+[2016.02.17-22.59.59:865][536]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VR_Level.VR_Level up for play (max tick rate 0) at 2016.02.17-17.59.59
+[2016.02.17-22.59.59:865][536]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.59.59:865][536]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.17-22.59.59:865][536]LogWorld: Bringing up level for play took: 0.001471
+[2016.02.17-22.59.59:887][536]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VR_Level -0.287
+[2016.02.17-22.59.59:897][538]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 674/400 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.08.18:953][845]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2016.02.17-23.08.18:953][845]LogSynthBenchmark:Display: ===============
+[2016.02.17-23.08.18:953][845]LogSynthBenchmark:Display: Main Processor:
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display:          ... 0.018407 s/Run 'RayIntersect'
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display:          ... 0.019812 s/Run 'Fractal'
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display: 
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 16
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display:   NumberOfCores (logical): 8
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display:   CPU Perf Index 0: 139.1
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display:   CPU Perf Index 1: 144.4
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display:  
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display: Graphics:
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GTX 745'
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display:   Vendor Id: 0x10de
+[2016.02.17-23.08.18:991][845]LogSynthBenchmark:Display:   GPU Memory: 4036/0/8164 MB
+[2016.02.17-23.08.19:026][845]LogSynthBenchmark:Display:   GPU first test: 0.01s
+[2016.02.17-23.08.19:026][845]LogSynthBenchmark:Display:          ... 1.544 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2016.02.17-23.08.19:026][845]LogSynthBenchmark:Display:          ... 1.243 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2016.02.17-23.08.19:026][845]LogSynthBenchmark:Display:          ... 1.070 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2016.02.17-23.08.19:026][845]LogSynthBenchmark:Display:          ... 5.633 GigaPix/s, Confidence=89% 'FillOnly' (likely to be very inaccurate)
+[2016.02.17-23.08.19:026][845]LogSynthBenchmark:Display:          ... 0.247 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2016.02.17-23.08.19:078][845]LogSynthBenchmark:Display:   GPU second test: 0.05s
+[2016.02.17-23.08.19:078][845]LogSynthBenchmark:Display:          ... 1.926 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2016.02.17-23.08.19:078][845]LogSynthBenchmark:Display:          ... 1.508 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2016.02.17-23.08.19:078][845]LogSynthBenchmark:Display:          ... 1.424 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2016.02.17-23.08.19:078][845]LogSynthBenchmark:Display:          ... 11.811 GigaPix/s, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2016.02.17-23.08.19:078][845]LogSynthBenchmark:Display:          ... 0.253 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2016.02.17-23.08.19:560][845]LogSynthBenchmark:Display:   GPU third test: 0.47s
+[2016.02.17-23.08.19:560][845]LogSynthBenchmark:Display:          ... 1.979 GigaPix/s, Confidence=100% 'ALUHeavyNoise'
+[2016.02.17-23.08.19:560][845]LogSynthBenchmark:Display:          ... 1.543 GigaPix/s, Confidence=100% 'TexHeavy'
+[2016.02.17-23.08.19:560][845]LogSynthBenchmark:Display:          ... 1.509 GigaPix/s, Confidence=100% 'DepTexHeavy'
+[2016.02.17-23.08.19:560][845]LogSynthBenchmark:Display:          ... 13.309 GigaPix/s, Confidence=100% 'FillOnly'
+[2016.02.17-23.08.19:560][845]LogSynthBenchmark:Display:          ... 0.259 GigaPix/s, Confidence=100% 'Bandwidth'
+[2016.02.17-23.08.19:560][845]LogSynthBenchmark:Display: 
+[2016.02.17-23.08.19:560][845]LogSynthBenchmark:Display:   GPU Perf Index 0: 43.0
+[2016.02.17-23.08.19:560][845]LogSynthBenchmark:Display:   GPU Perf Index 1: 20.7
+[2016.02.17-23.08.19:560][845]LogSynthBenchmark:Display:   GPU Perf Index 2: 39.2
+[2016.02.17-23.08.19:560][845]LogSynthBenchmark:Display:   GPU Perf Index 3: 52.3
+[2016.02.17-23.08.19:560][845]LogSynthBenchmark:Display:   GPU Perf Index 4: 24.2
+[2016.02.17-23.08.19:560][845]LogSynthBenchmark:Display:   CPUIndex: 139.1
+[2016.02.17-23.08.19:560][845]LogSynthBenchmark:Display:   GPUIndex: 43.0
+[2016.02.17-23.08.19:560][845]LogSynthBenchmark:Display: 
+[2016.02.17-23.08.19:560][845]LogSynthBenchmark:Display:          ... Total Time: 0.606442 sec
+[2016.02.17-23.08.19:570][845]LogConsoleManager:Warning: Console variable 'r.ScreenPercentage' wasn't set ('Scalability' has a lower priority than 'Code')
+[2016.02.17-23.08.19:570][845]LogConsoleManager:Warning: Console variable 'r.ScreenPercentage' wasn't set ('Scalability' has a lower priority than 'Code')
+[2016.02.17-23.08.19:578][847]LogContentStreaming: Texture pool size now 400 MB
+[2016.02.17-23.09.56:915][389]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9AAF82D40
+[2016.02.17-23.09.56:915][389]LogRenderer: Reallocating scene render targets to support 3024x1680 (Frame:26783).
+[2016.02.17-23.30.58:236][483]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.30.59:890][680]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.30.59:933][684]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.30.59:977][688]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 383/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.00:002][691]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.00:300][726]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.00:334][730]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.00:391][735]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.00:470][744]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.01:812][902]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.02:112][935]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.02:164][941]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.02:619][993]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 383/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.02:812][ 16]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.03:176][ 59]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.03:416][ 87]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.03:556][103]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.04:079][165]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.04:750][244]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.04:939][266]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.05:119][287]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.05:145][290]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.05:676][352]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.06:040][393]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.06:598][454]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 383/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.07:127][516]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.07:337][539]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.07:519][559]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.07:648][574]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.07:771][587]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.07:831][594]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.07:923][604]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.08:025][616]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.08:079][622]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.08:321][650]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.08:347][653]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.08:406][660]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.08:658][690]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.18:881][896]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.22:501][321]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.25:311][651]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.25:347][654]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.25:455][666]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.25:661][690]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.25:712][696]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.26:557][788]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.26:718][806]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 383/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.27:774][932]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.27:800][935]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.28:096][969]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.28:230][984]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.28:282][990]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.28:355][998]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.28:381][  1]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.28:477][ 12]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.28:521][ 17]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.28:765][ 46]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.29:036][ 78]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.29:062][ 81]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.29:205][ 98]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.29:333][113]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.29:518][134]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.29:604][144]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.29:663][151]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.29:688][154]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.29:734][159]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.29:759][162]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.29:822][169]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.29:873][175]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.29:898][178]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.30:054][196]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.30:089][200]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.30:167][209]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.30:192][212]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.30:335][229]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.30:716][274]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.30:801][284]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.30:879][293]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.31:071][316]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.31:243][336]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.31:311][343]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 383/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.36:386][943]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.38:074][142]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.40:268][401]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.43:253][753]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.44:596][910]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.46:874][178]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.52:976][900]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 416/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.53:097][913]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.31.56:579][324]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.03:622][153]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.05:942][427]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 416/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.06:064][440]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.06:611][503]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.11:923][126]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.13:701][335]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 416/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.21:387][224]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.38:386][243]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.40:497][489]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.41:605][618]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.52:018][827]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.54:206][ 85]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.54:521][120]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.55:137][191]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.55:162][194]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.55:267][206]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.55:301][210]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.55:627][248]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 383/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.56:322][331]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.57:222][438]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.58:230][557]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.58:348][570]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.58:374][573]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.58:519][590]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.58:607][600]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.58:665][607]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.58:799][623]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.59:157][665]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.59:182][668]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.59:309][682]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.59:351][687]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.32.59:476][701]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 383/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.33.02:395][ 47]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.33.07:356][615]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.33.08:939][801]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.33.09:556][874]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.33.10:223][953]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.33.13:861][385]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.33.24:390][591]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.33.42:302][672]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.33.46:298][144]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.33.48:803][440]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.33.52:917][927]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.33.55:387][217]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.33.58:512][584]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.02:178][ 18]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 416/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.02:282][ 30]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.04:927][340]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.05:779][440]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.08:375][749]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.08:425][755]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.08:762][795]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.09:843][924]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.10:687][ 25]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.11:687][144]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.11:896][169]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.11:922][172]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.11:989][180]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.12:047][187]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.12:247][211]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.12:560][248]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.12:944][294]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.15:223][564]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.15:621][611]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.15:944][649]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.16:110][669]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.16:819][752]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.16:919][764]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.16:944][767]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.17:019][776]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.17:214][799]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.17:248][803]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.17:316][811]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.17:365][817]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.17:565][841]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.17:700][857]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.17:841][873]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 383/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.18:020][894]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.18:090][902]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.18:122][906]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.18:156][910]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.18:504][951]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 383/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.20:025][133]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.20:068][138]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.20:422][180]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.20:497][189]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.20:658][208]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.20:683][211]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.21:092][260]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.21:125][264]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.21:201][273]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.21:270][281]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.21:478][306]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.21:553][315]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.21:603][321]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.21:804][345]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.22:089][379]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.22:235][396]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.22:337][408]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.22:524][430]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.22:618][441]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.22:878][472]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.22:905][475]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.22:930][478]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.22:963][482]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.23:005][487]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.23:072][495]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.23:364][529]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 383/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.23:439][538]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.24:542][669]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.26:945][955]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.30:436][365]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.35:467][960]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.37:789][233]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.39:388][402]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.53:745][103]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.57:035][489]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.58:319][639]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.58:851][700]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.34.59:541][779]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.35.01:857][ 54]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.35.02:511][131]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.35.03:624][263]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.35.03:840][285]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.35.03:865][288]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.35.03:985][302]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.35.04:531][361]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.35.04:652][374]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 383/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.35.11:357][167]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.35.13:722][444]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 363/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.35.15:066][601]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 436/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.17-23.35.17:598][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset" SILENT=true
+[2016.02.17-23.35.17:626][894]LogSavePackage: Save=22.609104ms
+[2016.02.17-23.35.17:626][894]LogSavePackage: Moving '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Saved/VR_Pawn431A95D0420465B7FDDE46A0EDD36AB5.tmp' to '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset'
+[2016.02.17-23.35.17:628][894]LogSavePackage: Total save time: 29.390525ms
+[2016.02.17-23.35.17:629][894]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset
+[2016.02.17-23.36.52:099][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset" SILENT=true
+[2016.02.17-23.36.52:127][933]LogSavePackage: Save=24.233896ms
+[2016.02.17-23.36.52:127][933]LogSavePackage: Moving '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Saved/VR_Pawn238A1F3F4C78ECF8BD076E85A9EE582C.tmp' to '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset'
+[2016.02.17-23.36.52:129][933]LogSavePackage: Total save time: 27.576994ms
+[2016.02.17-23.36.52:129][933]LogSavePackage:Dis
