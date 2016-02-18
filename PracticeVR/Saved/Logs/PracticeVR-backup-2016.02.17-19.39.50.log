@@ -1,0 +1,234 @@
+﻿[2016.02.17-23.47.50:219][  0]Log file open, 02/17/16 18:47:50
+[2016.02.17-23.47.50:219][  0]LogInit:Display: Running engine for game: PracticeVR
+[2016.02.17-23.47.50:219][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.17-23.47.50:219][  0]LogInit:Display: RandInit(-1070892917) SRandInit(-1070892916).
+[2016.02.17-23.47.50:219][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.17-23.47.50:219][  0]LogStats: Stats thread started at 0.062065
+[2016.02.17-23.47.50:219][  0]LogInit: Version: 4.10.3-2866931+++depot+UE4-Releases+4.10
+[2016.02.17-23.47.50:219][  0]LogInit: API Version: 2758231
+[2016.02.17-23.47.50:219][  0]LogInit: Compiled (64-bit): Feb 15 2016 08:20:45
+[2016.02.17-23.47.50:219][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.17-23.47.50:219][  0]LogInit: Build Configuration: Development
+[2016.02.17-23.47.50:219][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.17-23.47.50:219][  0]LogInit: Command line:  
+[2016.02.17-23.47.50:219][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.17-23.47.50:219][  0]LogInit: Rocket: 1
+[2016.02.17-23.47.50:224][  0]LogInit: Using libcurl 7.41.0
+[2016.02.17-23.47.50:224][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.17-23.47.50:224][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.17-23.47.50:224][  0]LogInit:  - other features:
+[2016.02.17-23.47.50:224][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.17-23.47.50:224][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.17-23.47.50:224][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.17-23.47.50:224][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.17-23.47.50:224][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.17-23.47.50:224][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.17-23.47.50:224][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.17-23.47.50:224][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.17-23.47.50:224][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.17-23.47.50:224][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.17-23.47.50:229][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.17-23.47.50:233][  0]LogInit: Object subsystem initialized
+[2016.02.17-23.47.50:234][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.17-23.47.50:234][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.17-23.47.50:241][  0]LogInit: Computer: ETC-JINGXUAC
+[2016.02.17-23.47.50:241][  0]LogInit: User: jingxuac
+[2016.02.17-23.47.50:241][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.17-23.47.50:241][  0]LogInit: High frequency timer resolution =3.507558 MHz
+[2016.02.17-23.47.50:241][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.02.17-23.47.50:242][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.17-23.47.50:242][  0]LogMemory: Process Physical Memory: 57.19 MB used, 57.19 MB peak
+[2016.02.17-23.47.50:242][  0]LogMemory: Process Virtual Memory: 60.69 MB used, 60.69 MB peak
+[2016.02.17-23.47.50:242][  0]LogMemory: Physical Memory: 6423.24 MB used, 16326.10 MB total
+[2016.02.17-23.47.50:242][  0]LogMemory: Virtual Memory: 354.02 MB used, 8388608.00 MB total
+[2016.02.17-23.47.50:269][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.17-23.47.50:640][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 745 (Feature Level 11_0)
+[2016.02.17-23.47.50:640][  0]LogD3D11RHI: Adapter has 4035MB of dedicated video memory, 0MB of dedicated system memory, and 7907MB of shared system memory, 1 output[s]
+[2016.02.17-23.47.50:640][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.17-23.47.50:644][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.17-23.47.50:645][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.17-23.47.50:655][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.17-23.47.50:669][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Intermediate/Shaders/WorkingDirectory/15188/).
+[2016.02.17-23.47.50:669][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jingxuac/AppData/Local/Temp/UnrealShaderWorkingDir/ABB14A8641EA042C7DF7458E6D8D615B/'.
+[2016.02.17-23.47.50:669][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.17-23.47.51:454][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.17-23.47.51:458][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.17-23.47.51:461][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.17-23.47.51:464][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.17-23.47.51:467][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.17-23.47.51:469][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.17-23.47.51:471][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.17-23.47.51:473][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.17-23.47.51:475][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.17-23.47.51:477][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.17-23.47.51:480][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.17-23.47.51:484][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.17-23.47.51:484][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.17-23.47.51:485][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.17-23.47.51:499][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.17-23.47.51:500][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.17-23.47.51:503][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.17-23.47.51:505][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.17-23.47.51:505][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.17-23.47.51:557][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.17-23.47.51:592][  0]LogDerivedDataCache: Loaded boot cache 0.03s 41MB C:/Users/jingxuac/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.17-23.47.51:592][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jingxuac/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.17-23.47.51:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.17-23.47.51:592][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.17-23.47.51:592][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.17-23.47.51:592][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.17-23.47.51:636][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.17-23.47.51:647][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jingxuac/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.17-23.47.51:764][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.17-23.47.51:764][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.17-23.47.51:788][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.17-23.47.51:788][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.17-23.47.52:038][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.17-23.47.52:579][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.17-23.47.52:662][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2016.02.17-23.47.52:784][  0]SourceControl: Info Source control is disabled
+[2016.02.17-23.47.52:990][  0]SourceControl: Info Source control is disabled
+[2016.02.17-23.47.52:998][  0]SourceControl: Info Source control is disabled
+[2016.02.17-23.47.53:004][  0]SourceControl: Info Source control is disabled
+[2016.02.17-23.47.53:150][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.02.17-23.47.53:150][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.02.17-23.47.53:195][  0]LogEngine: Initializing Engine...
+[2016.02.17-23.47.53:196][  0]OCULUS: Info: 02/17/16 23:47:53: [CAPI] LibOVR module is located at C:\WINDOWS\system32\LibOVRRT64_0_8.dll
+
+[2016.02.17-23.47.53:197][  0]OCULUS: Info: 02/17/16 23:47:53: [IPC] Call Stats for SetInitialState : x1: C2S=72.9853, S2C=22.2377, Runtime=37.0628 (microseconds) C2Ssize=80, S2Csize=81 (bytes)
+
+[2016.02.17-23.47.53:197][  0]OCULUS: Info: 02/17/16 23:47:53: [IPC] Call Stats for IsLatencyTesterAvailable : x1: C2S=55.8793, S2C=19.3867, Runtime=0.855296 (microseconds) C2Ssize=33, S2Csize=18 (bytes)
+
+[2016.02.17-23.47.53:197][  0]OCULUS: Info: 02/17/16 23:47:53: [IPC] Call Stats for Hmd_Create : x1: C2S=55.3091, S2C=2.56589, Runtime=17.9612 (microseconds) C2Ssize=19, S2Csize=171 (bytes)
+
+[2016.02.17-23.47.53:197][  0]OCULUS: Info: 02/17/16 23:47:53: [IPC] Call Stats for Hmd_GetHmdInfo : x1: C2S=9.12316, S2C=3.99138, Runtime=3.42118 (microseconds) C2Ssize=23, S2Csize=699 (bytes)
+
+[2016.02.17-23.47.53:198][  0]OCULUS: Info: 02/17/16 23:47:53: [IPC] Call Stats for SetNumberValue : x1: C2S=42.4797, S2C=2.85099, Runtime=14.8251 (microseconds) C2Ssize=55, S2Csize=25 (bytes)
+
+[2016.02.17-23.47.53:198][  0]OCULUS: Info: 02/17/16 23:47:53: [IPC] Call Stats for SetNumberValues : x1: C2S=7.69766, S2C=2.56589, Runtime=2.28079 (microseconds) C2Ssize=81, S2Csize=25 (bytes)
+
+[2016.02.17-23.47.53:198][  0]OCULUS: Info: 02/17/16 23:47:53: [IPC] Call Stats for Hmd_SetEnabledCaps : x1: C2S=44.1903, S2C=2.28079, Runtime=29.0801 (microseconds) C2Ssize=35, S2Csize=33 (bytes)
+
+[2016.02.17-23.47.53:198][  0]OCULUS: Info: 02/17/16 23:47:53: [IPC] Call Stats for Hmd_ConfigureTracking : x1: C2S=35.6373, S2C=1.99569, Runtime=34.782 (microseconds) C2Ssize=46, S2Csize=25 (bytes)
+
+[2016.02.17-23.47.53:198][  0]OCULUS: Info: 02/17/16 23:47:53: [IPC] Call Stats for Hmd_Release : x1: C2S=23.3781, S2C=1.99569, Runtime=20.5271 (microseconds) C2Ssize=20, S2Csize=25 (bytes)
+
+[2016.02.17-23.47.53:208][  0]LogHMD: Oculus plugin initialized. Version: 4.10.3-2866931+++depot+UE4-Releases+4.10, LibOVR: 0.8.0.0, built Feb 15 2016, 08:21:37
+[2016.02.17-23.47.53:306][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.17-23.47.53:309][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.17-23.47.53:380][  0]LogInit: FAudioDevice initialized.
+[2016.02.17-23.47.53:399][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/jingxuac/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.17-23.47.53:403][  0]LogInit: Texture streaming: Enabled
+[2016.02.17-23.47.53:407][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.17-23.47.53:407][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.3-2866931+++depot+UE4-Releases+4.10
+[2016.02.17-23.47.53:407][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e366859c4ae60c81309b9a94228fdbbf|36cf517b4d86471bb12e26a25eb81198|89ec8915-a56e-4f95-a252-1da1cb334e28
+[2016.02.17-23.47.53:407][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.17-23.47.53:415][  0]LogInit: Transaction tracking system initialized
+[2016.02.17-23.47.53:434][  0]BlueprintLog: New page: Editor Load
+[2016.02.17-23.47.53:488][  0]LocalizationService: Info Localization service is disabled
+[2016.02.17-23.47.53:531][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2016.02.17-23.47.53:531][  0]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2016.02.17-23.47.53:531][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2016.02.17-23.47.53:543][  0]LogConsoleResponse:Display: 
+[2016.02.17-23.47.53:629][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.17-23.47.53:667][  0]LogFileCache: Scanning file cache for directory 'C:/Phantasm/GitHub/practicevr/PracticeVR/Content/' took 0.01s
+[2016.02.17-23.47.53:667][  0]SourceControl: Info Source control is disabled
+[2016.02.17-23.47.53:667][  0]Cmd: MAP LOAD FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.17-23.47.53:668][  0]LightingResults: New page: Lighting Build
+[2016.02.17-23.47.53:670][  0]MapCheck: New page: Map Check
+[2016.02.17-23.47.53:670][  0]LightingResults: New page: Lighting Build
+[2016.02.17-23.47.53:678][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000261D6AC0
+[2016.02.17-23.47.53:927][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.17-23.47.53:932][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.17-23.47.53:932][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.17-23.47.53:961][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.894ms to complete.
+[2016.02.17-23.47.53:961][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.294
+[2016.02.17-23.47.54:078][  0]LogCollectionManager: Loaded 0 collections in 0.002162 seconds
+[2016.02.17-23.47.54:113][  0]LogFileCache: Scanning file cache for directory 'C:/Phantasm/GitHub/practicevr/PracticeVR/Saved/Collections/' took 0.01s
+[2016.02.17-23.47.54:113][  0]LogFileCache: Scanning file cache for directory 'C:/Phantasm/GitHub/practicevr/PracticeVR/Content/Developers/jingxuac/Collections/' took 0.01s
+[2016.02.17-23.47.54:113][  0]LogFileCache: Scanning file cache for directory 'C:/Phantasm/GitHub/practicevr/PracticeVR/Content/Collections/' took 0.01s
+[2016.02.17-23.47.54:113][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.02.17-23.47.54:119][  0]LogContentBrowser: Native class hierarchy populated in 0.0054 seconds. Added 1893 classes and 338 folders.
+[2016.02.17-23.47.54:123][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.02.17-23.47.54:152][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.02.17-23.47.54:155][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.02.17-23.47.54:192][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.17-23.47.54:200][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.17-23.47.54:221][  0]LogLoad: Full Startup: 4.30 seconds (BP compile: 0.03 seconds)
+[2016.02.17-23.47.54:233][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 0.8.0.0
+[2016.02.17-23.47.54:262][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.17-23.47.54:361][  0]LogRenderer: Reallocating scene render targets to support 896x456 (Frame:2).
+[2016.02.17-23.47.54:542][  3]LogAssetRegistry: Asset discovery search completed in 1.8904 seconds
+[2016.02.17-23.47.54:542][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.17-23.47.54:542][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2016.02.17-23.48.13:070][210]LogRenderer: Reallocating scene render targets to support 1616x808 (Frame:4).
+[2016.02.17-23.48.18:306][779]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.02.17-23.48.18:307][779]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.02.17-23.48.18:310][779]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.02.17-23.48.18:311][779]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.02.17-23.48.18:313][779]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2016.02.17-23.48.18:314][779]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2016.02.17-23.48.18:341][779]LogAIModule: Creating AISystem for world VR_Level
+[2016.02.17-23.48.18:362][779]Cmd: MAP LOAD FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/Levels/VR_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.17-23.48.18:362][779]LightingResults: New page: Lighting Build
+[2016.02.17-23.48.18:373][779]LoadErrors: New page: Loading map: VR_Level.umap
+[2016.02.17-23.48.18:374][779]MapCheck: New page: Map Check
+[2016.02.17-23.48.18:374][779]LightingResults: New page: Lighting Build
+[2016.02.17-23.48.18:383][779]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001223FB00
+[2016.02.17-23.48.18:409][779]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.17-23.48.18:426][779]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.17-23.48.18:457][779]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.831ms to complete.
+[2016.02.17-23.48.18:457][779]LogFileHelpers: Loading map 'VR_Level' took 0.096
+[2016.02.17-23.48.42:453][320]LogActorFactory: Actor Factory created Cube
+[2016.02.17-23.48.43:856][379]LogActorFactory: Actor Factory created Cube
+[2016.02.17-23.48.47:869][826]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.02.17-23.48.51:812][257]LogActorFactory: Actor Factory created Cube
+[2016.02.17-23.48.52:656][286]LogActorFactory: Actor Factory created Cube
+[2016.02.17-23.49.08:401][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.02.17-23.49.14:406][244]LogActorFactory: Actor Factory created Sphere
+[2016.02.17-23.49.15:829][320]LogActorFactory: Actor Factory created Sphere
+[2016.02.17-23.49.26:937][415]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.02.17-23.49.28:805][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2016.02.17-23.50.29:518][840]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2016.02.17-23.50.34:146][365]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2016.02.17-23.51.03:353][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.02.17-23.51.26:770][828]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.02.17-23.51.36:327][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/VR_Level" FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/Levels/VR_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.17-23.51.36:358][816]LogSavePackage: Save=17.695501ms
+[2016.02.17-23.51.36:358][816]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_Level46055064401566A35F8CFAA25C125203.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/Levels/VR_Level.umap'
+[2016.02.17-23.51.36:360][816]LogSavePackage: Total save time: 22.682451ms
+[2016.02.17-23.51.36:360][816]LogSavePackage:Display: Finished SavePackage ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/Levels/VR_Level.umap
+[2016.02.17-23.51.36:380][816]LogFileHelpers: Saving map 'VR_Level' took 0.087
+[2016.02.17-23.51.37:305][920]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.02.17-23.53.04:310][393]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.17-23.53.04:606][393]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 107 classes and 0 folders.
+[2016.02.17-23.54.17:837][522]LogRenderer: Reallocating scene render targets to support 1616x1260 (Frame:4141).
+[2016.02.17-23.54.48:065][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2016.02.17-23.55.00:843][514]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2016.02.17-23.55.13:288][771]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.02.17-23.55.15:033][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/VR_Level" FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/Levels/VR_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.17-23.55.15:077][963]LogSavePackage: Save=17.111620ms
+[2016.02.17-23.55.15:077][963]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_LevelA3105B2D4A4CCDA7EDC32886DD495793.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/Levels/VR_Level.umap'
+[2016.02.17-23.55.15:079][963]LogSavePackage: Total save time: 23.595903ms
+[2016.02.17-23.55.15:079][963]LogSavePackage:Display: Finished SavePackage ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/Levels/VR_Level.umap
+[2016.02.17-23.55.15:098][963]LogFileHelpers: Saving map 'VR_Level' took 0.105
+[2016.02.17-23.55.15:122][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset" SILENT=true
+[2016.02.17-23.55.15:151][963]LogSavePackage: Save=24.131603ms
+[2016.02.17-23.55.15:152][963]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_PawnE673642F40D914300B878FB10B070DC6.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset'
+[2016.02.17-23.55.15:153][963]LogSavePackage: Total save time: 30.011479ms
+[2016.02.17-23.55.15:153][963]LogSavePackage:Display: Finished SavePackage ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset
+[2016.02.17-23.55.43:320][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2016.02.18-00.07.15:994][222]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/VR_Level' took 0.031
+[2016.02.18-00.07.16:001][222]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/VR_Pawn] ([1] browsable assets)...
+[2016.02.18-00.07.16:019][222]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/VR_Pawn.VR_Pawn]
+[2016.02.18-00.07.16:019][222]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/VR_Pawn]
+[2016.02.18-00.07.16:019][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/Autosaves/Game/BluePrints/VR_Pawn_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.02.18-00.07.16:058][222]LogSavePackage: Save=33.962376ms
+[2016.02.18-00.07.16:058][222]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_Pawn_Auto11EF1F40F4A20028142A777B4C995F16A.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/Autosaves/Game/BluePrints/VR_Pawn_Auto1.uasset'
+[2016.02.18-00.07.16:059][222]LogSavePackage: Total save time: 38.021892ms
+[2016.02.18-00.07.16:059][222]LogSavePackage:Display: Finished SavePackage ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/Autosaves/Game/BluePrints/VR_Pawn_Auto1.uasset
+[2016.02.18-00.07.16:059][222]LogFileHelpers: Auto-saving content packages took 0.064
+[2016.02.18-00.20.18:902][790]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/VR_Level' took 0.024
+[2016.02.18-00.20.18:907][790]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/VR_Pawn] ([1] browsable assets)...
+[2016.02.18-00.20.18:939][790]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/VR_Pawn.VR_Pawn]
+[2016.02.18-00.20.18:939][790]OBJ S
