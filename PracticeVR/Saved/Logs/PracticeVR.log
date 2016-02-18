@@ -195,4 +195,32 @@
 [2016.02.18-01.05.52:645][284]LogSavePackage: Save=40.602608ms
 [2016.02.18-01.05.52:645][284]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_PawnF1AD6106499D123054034CA8151F5A6E.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset'
 [2016.02.18-01.05.52:648][284]LogSavePackage: Total save time: 44.832904ms
-[2016.02.18-01.05.52:648][284]LogSavePackage:Display: Finished SavePackage ../../../../../../P
+[2016.02.18-01.05.52:648][284]LogSavePackage:Display: Finished SavePackage ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset
+[2016.02.18-01.05.54:234][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/VR_Level" FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/Levels/VR_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.18-01.05.54:281][452]LogSavePackage: Save=21.647539ms
+[2016.02.18-01.05.54:281][452]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_LevelE140C1E040068F4E1390EDA395839E09.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/Levels/VR_Level.umap'
+[2016.02.18-01.05.54:282][452]LogSavePackage: Total save time: 27.108036ms
+[2016.02.18-01.05.54:282][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/Levels/VR_Level.umap
+[2016.02.18-01.13.58:485][736]LogRenderer: Reallocating scene render targets to support 1616x1260 (Frame:589).
+[2016.02.18-01.17.07:200][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset" SILENT=true
+[2016.02.18-01.17.07:249][459]LogSavePackage: Save=44.553505ms
+[2016.02.18-01.17.07:249][459]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_Pawn201B26354AAD92F2DF9E48A1EB94100B.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset'
+[2016.02.18-01.17.07:251][459]LogSavePackage: Total save time: 50.378639ms
+[2016.02.18-01.17.07:251][459]LogSavePackage:Display: Finished SavePackage ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset
+[2016.02.18-01.21.48:459][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset" SILENT=true
+[2016.02.18-01.21.48:511][741]LogSavePackage: Save=50.001453ms
+[2016.02.18-01.21.48:511][741]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_Pawn8D28AF8D485EDCEA072DA69E81D71A7D.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset'
+[2016.02.18-01.21.48:513][741]LogSavePackage: Total save time: 52.943956ms
+[2016.02.18-01.21.48:513][741]LogSavePackage:Display: Finished SavePackage ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset
+[2016.02.18-01.21.49:507][854]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset" SILENT=true
+[2016.02.18-01.21.49:553][854]LogSavePackage: Save=43.748386ms
+[2016.02.18-01.21.49:553][854]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_Pawn3B94A4954E07A58E57A7C9AF5DE16D73.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset'
+[2016.02.18-01.21.49:554][854]LogSavePackage: Total save time: 45.837589ms
+[2016.02.18-01.21.49:554][854]LogSavePackage:Display: Finished SavePackage ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset
+[2016.02.18-01.22.29:170][362]LogBlueprint:Error: [compiler ] Error  Event BeginPlay  cannot be placed in function graph
+[2016.02.18-01.22.29:170][362]BlueprintLog: New page: Collapse to Function
+[2016.02.18-01.22.29:170][362]BlueprintLog:Error: Error  Event BeginPlay  cannot be placed in function graph
+[2016.02.18-01.22.29:191][362]LogBlueprint:Warning: [compiler ] Warning [1662.85] Compile of  failed. 1 Fatal Issue(s) 0 Warning(s) [in 7 ms]
+[2016.02.18-01.23.26:430][766]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset" SILENT=true
+[2016.02.18-01.23.26:483][766]LogSavePackage: Save=46.838856ms
+[2016.02.18-01.23.26:483][766]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_PawnB76C2A104609D29988486B856F
