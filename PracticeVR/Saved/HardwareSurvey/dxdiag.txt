@@ -1,0 +1,288 @@
+------------------
+System Information
+------------------
+Time of this report: 2/17/2016, 18:47:30
+       Machine name: ETC-JINGXUAC
+   Operating System: Windows 7 Enterprise 64-bit (6.1, Build 7601) Service Pack 1 (7601.win7sp1_ldr.151230-0600)
+           Language: English (Regional Setting: English)
+System Manufacturer: Dell Inc.
+       System Model: OptiPlex 9020
+               BIOS: BIOS Date: 04/01/15 20:20:35 Ver: A11.00 
+          Processor: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz (8 CPUs), ~3.6GHz
+             Memory: 16384MB RAM
+Available OS Memory: 16326MB RAM
+          Page File: 13121MB used, 19528MB available
+        Windows Dir: C:\WINDOWS
+    DirectX Version: DirectX 11
+DX Setup Parameters: Not found
+   User DPI Setting: Using System DPI
+ System DPI Setting: 96 DPI (100 percent)
+    DWM DPI Scaling: Disabled
+     DxDiag Version: 6.01.7601.17514 32bit Unicode
+  DxDiag Previously: Crashed in Direct3D (stage 1) & DirectShow (stage 1). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
+
+------------
+DxDiag Notes
+------------
+        Sound Tab 1: No problems found.
+          Input Tab: No problems found.
+
+--------------------
+DirectX Debug Levels
+--------------------
+Direct3D:    0/4 (retail)
+DirectDraw:  0/4 (retail)
+DirectInput: 0/5 (retail)
+DirectMusic: 0/5 (retail)
+DirectPlay:  0/9 (retail)
+DirectSound: 0/5 (retail)
+DirectShow:  0/6 (retail)
+
+---------------
+Display Devices
+---------------
+-------------
+Sound Devices
+-------------
+            Description: Speakers / Headphones (Realtek High Definition Audio)
+ Default Sound Playback: Yes
+ Default Voice Playback: Yes
+            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0280&SUBSYS_102805A4&REV_1000
+        Manufacturer ID: 1
+             Product ID: 100
+                   Type: WDM
+            Driver Name: RTDVHD64.sys
+         Driver Version: 6.00.0001.6053 (English)
+      Driver Attributes: Final Retail
+            WHQL Logo'd: Yes
+          Date and Size: 4/24/2015 17:00:34, 2638808 bytes
+            Other Files: 
+        Driver Provider: Realtek Semiconductor Corp.
+         HW Accel Level: Basic
+              Cap Flags: 0xF1F
+    Min/Max Sample Rate: 100, 200000
+Static/Strm HW Mix Bufs: 1, 0
+ Static/Strm HW 3D Bufs: 0, 0
+              HW Memory: 0
+       Voice Management: No
+ EAX(tm) 2.0 Listen/Src: No, No
+   I3DL2(tm) Listen/Src: No, No
+Sensaura(tm) ZoomFX(tm): No
+
+---------------------
+Sound Capture Devices
+---------------------
+            Description: Microphone (Screaming Bee Audio)
+  Default Sound Capture: Yes
+  Default Voice Capture: Yes
+            Driver Name: ScreamingBAudio64.sys
+         Driver Version: 2.00.0003.0000 (English)
+      Driver Attributes: Final Retail
+          Date and Size: 2/7/2014 13:17:24, 38992 bytes
+              Cap Flags: 0x1
+           Format Flags: 0xFFFFF
+
+-------------------
+DirectInput Devices
+-------------------
+      Device Name: Mouse
+         Attached: 1
+    Controller ID: n/a
+Vendor/Product ID: n/a
+        FF Driver: n/a
+
+      Device Name: Keyboard
+         Attached: 1
+    Controller ID: n/a
+Vendor/Product ID: n/a
+        FF Driver: n/a
+
+      Device Name: Razer BlackWidow Ultimate
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x1532, 0x0214
+        FF Driver: n/a
+
+      Device Name: Razer BlackWidow Ultimate
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x1532, 0x0214
+        FF Driver: n/a
+
+      Device Name: Razer BlackWidow Ultimate
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x1532, 0x0214
+        FF Driver: n/a
+
+      Device Name: Razer BlackWidow Ultimate
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x1532, 0x0214
+        FF Driver: n/a
+
+Poll w/ Interrupt: No
+
+-----------
+USB Devices
+-----------
++ USB Root Hub
+| Vendor/Product ID: 0x8086, 0x8C2D
+| Matching Device ID: usb\root_hub20
+| Service: usbhub
+| 
++-+ Generic USB Hub
+| | Vendor/Product ID: 0x8087, 0x8008
+| | Location: Port_#0001.Hub_#0001
+| | Matching Device ID: usb\class_09
+| | Service: usbhub
+| | 
+| +-+ USB Input Device
+| | | Vendor/Product ID: 0x046D, 0xC077
+| | | Location: Port_#0005.Hub_#0003
+| | | Matching Device ID: generic_hid_device
+| | | Service: HidUsb
+| | | 
+| | +-+ HID-compliant mouse
+| | | | Vendor/Product ID: 0x046D, 0xC077
+| | | | Matching Device ID: hid_device_system_mouse
+| | | | Service: mouhid
+
+----------------
+Gameport Devices
+----------------
+
+------------
+PS/2 Devices
+------------
++ HID Keyboard Device
+| Vendor/Product ID: 0x1532, 0x0214
+| Matching Device ID: hid_device_system_keyboard
+| Service: kbdhid
+| 
++ Razer BlackWidow Ultimate
+| Vendor/Product ID: 0x1532, 0x0214
+| Matching Device ID: hid\vid_1532&pid_0214&mi_01&col01
+| Upper Filters: rzudd
+| Service: kbdhid
+| 
++ Terminal Server Keyboard Driver
+| Matching Device ID: root\rdp_kbd
+| Upper Filters: kbdclass
+| Service: TermDD
+| 
++ Razer BlackWidow Ultimate
+| Vendor/Product ID: 0x1532, 0x0214
+| Matching Device ID: hid\vid_1532&pid_0214&mi_02
+| Upper Filters: rzudd
+| Service: mouhid
+| 
++ Terminal Server Mouse Driver
+| Matching Device ID: root\rdp_mou
+| Upper Filters: mouclass
+| Service: TermDD
+
+------------------------
+Disk & DVD/CD-ROM Drives
+------------------------
+      Drive: C:
+ Free Space: 594.0 GB
+Total Space: 953.5 GB
+File System: NTFS
+      Model: WDC WD10EZEX-75M2NA0 SCSI Disk Device
+
+      Drive: D:
+      Model: TSSTcorp DVD+-RW SH-216DB SCSI CdRom Device
+     Driver: c:\windows\system32\drivers\cdrom.sys, 6.01.7601.17514 (English), , 0 bytes
+
+--------------
+System Devices
+--------------
+     Name: Intel(R) Ethernet Connection I217-LM
+Device ID: PCI\VEN_8086&DEV_153A&SUBSYS_05A41028&REV_04\3&11583659&2&C8
+   Driver: n/a
+
+     Name: Intel(R) 8 Series/C220 Series USB EHCI #2 - 8C2D
+Device ID: PCI\VEN_8086&DEV_8C2D&SUBSYS_05A41028&REV_04\3&11583659&2&D0
+   Driver: n/a
+
+     Name: Intel(R) Xeon(R) processor E3-1200 v3/4th Gen Core processor PCI Express x16 Controller - 0C01
+Device ID: PCI\VEN_8086&DEV_0C01&SUBSYS_05A41028&REV_06\3&11583659&2&08
+   Driver: n/a
+
+     Name: Intel(R) 8 Series/C220 Series USB EHCI #1 - 8C26
+Device ID: PCI\VEN_8086&DEV_8C26&SUBSYS_05A41028&REV_04\3&11583659&2&E8
+   Driver: n/a
+
+     Name: Intel(R) 4th Gen Core processor DRAM Controller - 0C00
+Device ID: PCI\VEN_8086&DEV_0C00&SUBSYS_05A41028&REV_06\3&11583659&2&00
+   Driver: n/a
+
+     Name: Intel(R) 8 Series/C220 Series SMBus Controller - 8C22
+Device ID: PCI\VEN_8086&DEV_8C22&SUBSYS_05A41028&REV_04\3&11583659&2&FB
+   Driver: n/a
+
+     Name: NVIDIA GeForce GTX 745
+Device ID: PCI\VEN_10DE&DEV_1382&SUBSYS_106510DE&REV_A2\4&2398344F&0&0008
+   Driver: n/a
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_8086&DEV_8C20&SUBSYS_05A41028&REV_04\3&11583659&2&D8
+   Driver: n/a
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_10DE&DEV_0FBC&SUBSYS_106510DE&REV_A1\4&2398344F&0&0108
+   Driver: n/a
+
+     Name: Intel(R) 8 Series/C220 Series PCI Express Root Port #2 - 8C12
+Device ID: PCI\VEN_8086&DEV_8C12&SUBSYS_05A41028&REV_D4\3&11583659&2&E1
+   Driver: n/a
+
+     Name: PCI standard PCI Express to PCI/PCI-X Bridge
+Device ID: PCI\VEN_104C&DEV_8240&SUBSYS_05A41028&REV_00\4&CE058E8&0&00E1
+   Driver: n/a
+
+     Name: Intel(R) Q87 LPC Controller - 8C4E
+Device ID: PCI\VEN_8086&DEV_8C4E&SUBSYS_05A41028&REV_04\3&11583659&2&F8
+   Driver: n/a
+
+     Name: Intel(R) 8 Series/C220 Series PCI Express Root Port #1 - 8C10
+Device ID: PCI\VEN_8086&DEV_8C10&SUBSYS_05A41028&REV_D4\3&11583659&2&E0
+   Driver: n/a
+
+     Name: Intel(R) Management Engine Interface 
+Device ID: PCI\VEN_8086&DEV_8C3A&SUBSYS_05A41028&REV_04\3&11583659&2&B0
+   Driver: n/a
+
+     Name: Intel(R) Desktop/Workstation/Server Express Chipset SATA RAID Controller
+Device ID: PCI\VEN_8086&DEV_2822&SUBSYS_05A41028&REV_04\3&11583659&2&FA
+   Driver: n/a
+
+     Name: Intel(R) USB 3.0 eXtensible Host Controller
+Device ID: PCI\VEN_8086&DEV_8C31&SUBSYS_05A41028&REV_04\3&11583659&2&A0
+   Driver: n/a
+
+---------------
+EVR Power Information
+---------------
+Current Setting: {5C67A112-A4C9-483F-B4A7-1D473BECAFDC} (Quality) 
+  Quality Flags: 2576
+    Enabled:
+    Force throttling
+    Allow half deinterlace
+    Allow scaling
+    Decode Power Usage: 100
+  Balanced Flags: 1424
+    Enabled:
+    Force throttling
+    Allow batching
+    Force half deinterlace
+    Force scaling
+    Decode Power Usage: 50
+  PowerFlags: 1424
+    Enabled:
+    Force throttling
+    Allow batching
+    Force half deinterlace
+    Force scaling
+    Decode Power Usage: 0
