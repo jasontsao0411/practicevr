@@ -380,4 +380,80 @@
 [2016.02.18-01.43.48:068][763]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.uasset' is outside repository
 [2016.02.18-01.43.48:068][763]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Landscape/LandscapeWalkThrough.uasset' is outside repository
 [2016.02.18-01.43.48:068][763]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Landscape/TutorialAssets/Landscape.uasset' is outside repository
-[2016.02.18-01.43.48:068][763]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset' is outside reposi
+[2016.02.18-01.43.48:068][763]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Mobile/CreatingSigningCertAndProvisionTutorial.uasset' is outside repository
+[2016.02.18-01.43.48:068][763]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Mobile/TutorialAssets/android_Icon.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Mobile/TutorialAssets/android_Icon.uasset' is outside repository
+[2016.02.18-01.43.48:068][763]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Paper2D/FlipbookEditorTutorial.uasset' is outside repository
+[2016.02.18-01.43.48:068][763]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/Paper2D/TutorialAssets/Paper2DFlipbook_TutorialIcon.uasset' is outside repository
+[2016.02.18-01.43.48:068][763]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/DestructibleMeshEditorTutorial.uasset' is outside repository
+[2016.02.18-01.43.48:068][763]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset' is outside repository
+[2016.02.18-01.43.48:068][763]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/NewBlendSpace1D.uasset' is outside repository
+[2016.02.18-01.43.48:068][763]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2016.02.18-01.43.48:068][763]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset' is outside repository
+[2016.02.18-01.43.48:068][763]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Plugins/Runtime/LeapMotionController/Content/LM_CapsuleMesh.uasset: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Plugins/Runtime/LeapMotionController/Content/LM_CapsuleMesh.uasset' is outside repository
+[2016.02.18-01.43.48:068][763]SourceControl: Info fatal: C:/Program Files (x86)/Epic Games/4.10/Engine/Content/: 'C:/Program Files (x86)/Epic Games/4.10/Engine/Content/' is outside repository
+[2016.02.18-01.44.02:176][763]LogSourceControl: FGitCheckInWorker: commit successful
+[2016.02.18-01.44.02:286][763]SourceControl: Info [master af58641] sadasasaddasd
+[2016.02.18-01.44.02:286][763]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2016.02.18-01.44.02:305][763]SourceControl: Info Commited [master af58641] sadasasaddasd.
+[2016.02.18-01.52.41:044][626]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2016.02.18-01.53.38:834][174]LogSavePackage: Save=29.455536ms
+[2016.02.18-01.53.38:834][174]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_Level_Auto2578C939248F8E69D9D57458DE7768F8B.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/Autosaves/Game/Levels/VR_Level_Auto2.umap'
+[2016.02.18-01.53.38:835][174]LogSavePackage: Total save time: 34.654312ms
+[2016.02.18-01.53.38:835][174]LogSavePackage:Display: Finished SavePackage ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/Autosaves/Game/Levels/VR_Level_Auto2.umap
+[2016.02.18-01.53.38:836][174]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/VR_Level' took 0.063
+[2016.02.18-01.53.38:836][174]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.063
+[2016.02.18-01.53.38:843][174]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/VR_Pawn] ([1] browsable assets)...
+[2016.02.18-01.53.38:861][174]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/VR_Pawn.VR_Pawn]
+[2016.02.18-01.53.38:861][174]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/VR_Pawn]
+[2016.02.18-01.53.38:861][174]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/Autosaves/Game/BluePrints/VR_Pawn_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.02.18-01.53.38:919][174]LogSavePackage: Save=51.647614ms
+[2016.02.18-01.53.38:919][174]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_Pawn_Auto293824BB34C43CE7295825E94E60C0613.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/Autosaves/Game/BluePrints/VR_Pawn_Auto2.uasset'
+[2016.02.18-01.53.38:920][174]LogSavePackage: Total save time: 57.121504ms
+[2016.02.18-01.53.38:920][174]LogSavePackage:Display: Finished SavePackage ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/Autosaves/Game/BluePrints/VR_Pawn_Auto2.uasset
+[2016.02.18-01.53.38:920][174]LogFileHelpers: Auto-saving content packages took 0.081
+[2016.02.18-02.03.38:889][720]LogSavePackage: Save=20.076077ms
+[2016.02.18-02.03.38:889][720]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_Level_Auto3B731C42D44CB660BB48DFFA289615C10.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/Autosaves/Game/Levels/VR_Level_Auto3.umap'
+[2016.02.18-02.03.38:890][720]LogSavePackage: Total save time: 24.923891ms
+[2016.02.18-02.03.38:890][720]LogSavePackage:Display: Finished SavePackage ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/Autosaves/Game/Levels/VR_Level_Auto3.umap
+[2016.02.18-02.03.38:891][720]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/VR_Level' took 0.053
+[2016.02.18-02.03.38:891][720]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.053
+[2016.02.18-02.03.38:897][720]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/VR_Pawn] ([1] browsable assets)...
+[2016.02.18-02.03.38:914][720]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/VR_Pawn.VR_Pawn]
+[2016.02.18-02.03.38:914][720]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/VR_Pawn]
+[2016.02.18-02.03.38:914][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/Autosaves/Game/BluePrints/VR_Pawn_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2016.02.18-02.03.38:966][720]LogSavePackage: Save=45.550495ms
+[2016.02.18-02.03.38:966][720]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_Pawn_Auto37205C27A43C6621E193CD3B3C710F89A.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/Autosaves/Game/BluePrints/VR_Pawn_Auto3.uasset'
+[2016.02.18-02.03.38:967][720]LogSavePackage: Total save time: 50.733872ms
+[2016.02.18-02.03.38:967][720]LogSavePackage:Display: Finished SavePackage ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/Autosaves/Game/BluePrints/VR_Pawn_Auto3.uasset
+[2016.02.18-02.03.38:967][720]LogFileHelpers: Auto-saving content packages took 0.073
+[2016.02.18-02.05.32:490][187]LogEditorViewport: Clicking Background
+[2016.02.18-02.05.33:113][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2016.02.18-02.07.24:135][772]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Physics/Collision/index.html?utm_source=editor&utm_medium=docs&utm_campaign=doc_anchors
+[2016.02.18-02.07.54:292][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/VR_Level" FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/Levels/VR_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.18-02.07.54:336][492]LogSavePackage: Save=20.775707ms
+[2016.02.18-02.07.54:336][492]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_LevelE46A7C61466DF1CB0D4997841D06EF7D.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/Levels/VR_Level.umap'
+[2016.02.18-02.07.54:340][492]LogSavePackage: Total save time: 25.797151ms
+[2016.02.18-02.07.54:340][492]LogSavePackage:Display: Finished SavePackage ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/Levels/VR_Level.umap
+[2016.02.18-02.08.03:630][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset" SILENT=true
+[2016.02.18-02.08.03:677][ 79]LogSavePackage: Save=44.677238ms
+[2016.02.18-02.08.03:677][ 79]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_PawnFD427F4A4B6CD1E5C91B76A42A420337.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset'
+[2016.02.18-02.08.03:680][ 79]LogSavePackage: Total save time: 48.845947ms
+[2016.02.18-02.08.03:680][ 79]LogSavePackage:Display: Finished SavePackage ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset
+[2016.02.18-02.09.23:700][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset" SILENT=true
+[2016.02.18-02.09.23:748][355]LogSavePackage: Save=42.497089ms
+[2016.02.18-02.09.23:749][355]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_Pawn4E67B8DC4D2E4BF6B3629E902DEC79F0.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset'
+[2016.02.18-02.09.23:750][355]LogSavePackage: Total save time: 49.175240ms
+[2016.02.18-02.09.23:750][355]LogSavePackage:Display: Finished SavePackage ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset
+[2016.02.18-02.37.00:155][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset" SILENT=true
+[2016.02.18-02.37.00:208][922]LogSavePackage: Save=46.838001ms
+[2016.02.18-02.37.00:208][922]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_Pawn871442F04BEC6A97972C13B5701503BF.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset'
+[2016.02.18-02.37.00:209][922]LogSavePackage: Total save time: 53.152651ms
+[2016.02.18-02.37.00:209][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset
+[2016.02.18-02.43.01:218][871]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/VR_Level' took 0.025
+[2016.02.18-02.43.01:222][871]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/VR_Pawn] ([1] browsable assets)...
+[2016.02.18-02.43.01:266][871]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/VR_Pawn.VR_Pawn]
+[2016.02.18-02.43.01:266][871]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/VR_Pawn]
+[2016.02.18-02.43.01:266][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/Autosaves/Game/BluePrints/VR_Pawn_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2016.02.18-02.43.01:320][871]LogSavePackage: Save=48.276894ms
+[2016.02.18-02.43.01:320][871]LogSavePackage: Moving '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/VR_Pawn_Auto4E5AB4F7145B687DE7747ACB1EF9586EF.tmp' to '../../../../../../Phantasm/GitHub/practicevr/PracticeVR/Saved/Autosaves/Game/BluePrints/VR_Pawn_Auto4.uasset'
+[2016.02.18-02.43.01:321][871]LogSavePackag
