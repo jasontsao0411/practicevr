@@ -1,428 +1,197 @@
-﻿[2016.02.18-04.22.23:499][  0]Log file open, 02/17/16 23:22:23
-[2016.02.18-04.22.23:499][  0]LogInit:Display: Running engine for game: PracticeVR
-[2016.02.18-04.22.23:499][  0]LogPlatformFile: Not using cached read wrapper
-[2016.02.18-04.22.23:499][  0]LogInit:Display: RandInit(717396570) SRandInit(717396571).
-[2016.02.18-04.22.23:499][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-[2016.02.18-04.22.23:499][  0]LogStats: Stats thread started at 0.067590
-[2016.02.18-04.22.23:499][  0]LogInit: Version: 4.10.3-2866931+++depot+UE4-Releases+4.10
-[2016.02.18-04.22.23:499][  0]LogInit: API Version: 2758231
-[2016.02.18-04.22.23:499][  0]LogInit: Compiled (64-bit): Feb 15 2016 08:20:45
-[2016.02.18-04.22.23:499][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
-[2016.02.18-04.22.23:499][  0]LogInit: Build Configuration: Development
-[2016.02.18-04.22.23:499][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
-[2016.02.18-04.22.23:499][  0]LogInit: Command line:  
-[2016.02.18-04.22.23:499][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
-[2016.02.18-04.22.23:499][  0]LogInit: Rocket: 1
-[2016.02.18-04.22.23:506][  0]LogInit: Using libcurl 7.41.0
-[2016.02.18-04.22.23:506][  0]LogInit:  - built for x86_64-pc-win32
-[2016.02.18-04.22.23:506][  0]LogInit:  - supports SSL with WinSSL
-[2016.02.18-04.22.23:506][  0]LogInit:  - other features:
-[2016.02.18-04.22.23:506][  0]LogInit:      CURL_VERSION_SSL
-[2016.02.18-04.22.23:506][  0]LogInit:      CURL_VERSION_IPV6
-[2016.02.18-04.22.23:506][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.02.18-04.22.23:506][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.02.18-04.22.23:506][  0]LogInit:      CURL_VERSION_IDN
-[2016.02.18-04.22.23:506][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.02.18-04.22.23:506][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.02.18-04.22.23:506][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.02.18-04.22.23:506][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.02.18-04.22.23:506][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.02.18-04.22.23:512][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.02.18-04.22.23:517][  0]LogInit: Object subsystem initialized
-[2016.02.18-04.22.23:518][  0]LogInit: Selected Device Profile: [Windows]
-[2016.02.18-04.22.23:518][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.02.18-04.22.23:525][  0]LogInit: Computer: ETC-WIN10-006
-[2016.02.18-04.22.23:525][  0]LogInit: User: demo
-[2016.02.18-04.22.23:525][  0]LogInit: CPU Page size=4096, Cores=4
-[2016.02.18-04.22.23:525][  0]LogInit: High frequency timer resolution =3.507525 MHz
-[2016.02.18-04.22.23:525][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.02.18-04.22.23:526][  0]LogMemory: Platform Memory Stats for Windows
-[2016.02.18-04.22.23:526][  0]LogMemory: Process Physical Memory: 55.91 MB used, 55.91 MB peak
-[2016.02.18-04.22.23:526][  0]LogMemory: Process Virtual Memory: 56.76 MB used, 56.76 MB peak
-[2016.02.18-04.22.23:526][  0]LogMemory: Physical Memory: 2925.73 MB used, 16326.10 MB total
-[2016.02.18-04.22.23:526][  0]LogMemory: Virtual Memory: 378.68 MB used, 134217728.00 MB total
-[2016.02.18-04.22.23:550][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.02.18-04.22.23:904][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 745 (Feature Level 11_0)
-[2016.02.18-04.22.23:904][  0]LogD3D11RHI: Adapter has 4035MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 2 output[s]
-[2016.02.18-04.22.23:905][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2016.02.18-04.22.23:905][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 0 output[s]
-[2016.02.18-04.22.23:905][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.02.18-04.22.23:908][  0]LogD3D11RHI: !Direct3DDevice
-[2016.02.18-04.22.23:908][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.02.18-04.22.23:920][  0]LogD3D11RHI: Async texture creation enabled
-[2016.02.18-04.22.23:931][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Intermediate/Shaders/WorkingDirectory/5320/).
-[2016.02.18-04.22.23:931][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/demo/AppData/Local/Temp/UnrealShaderWorkingDir/D906D8B440A9D755BE547B87F8BD91C3/'.
-[2016.02.18-04.22.23:931][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.02.18-04.22.24:514][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.02.18-04.22.24:518][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.02.18-04.22.24:522][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.02.18-04.22.24:526][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.02.18-04.22.24:529][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.02.18-04.22.24:532][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.02.18-04.22.24:534][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.02.18-04.22.24:536][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.02.18-04.22.24:539][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.02.18-04.22.24:541][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.02.18-04.22.24:543][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.02.18-04.22.24:548][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.02.18-04.22.24:548][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.02.18-04.22.24:549][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.02.18-04.22.24:565][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.02.18-04.22.24:567][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.02.18-04.22.24:569][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.02.18-04.22.24:571][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.02.18-04.22.24:571][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.02.18-04.22.24:629][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.02.18-04.22.24:665][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/demo/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.02.18-04.22.24:665][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/demo/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
-[2016.02.18-04.22.24:665][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.02.18-04.22.24:665][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.02.18-04.22.24:665][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.02.18-04.22.24:665][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.02.18-04.22.24:708][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.02.18-04.22.24:720][  0]LogDerivedDataCache: Using Local data cache path C:/Users/demo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.02.18-04.22.24:845][  0]LogInit: Selected Device Profile: [Windows]
-[2016.02.18-04.22.24:847][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.02.18-04.22.24:926][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.02.18-04.22.24:926][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.02.18-04.22.25:084][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.02.18-04.22.25:616][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.02.18-04.22.25:706][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
-[2016.02.18-04.22.25:824][  0]SourceControl: Info Source control is disabled
-[2016.02.18-04.22.26:337][  0]LogObj: 28633 objects as part of root set at end of initial load.
-[2016.02.18-04.22.26:337][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
-[2016.02.18-04.22.26:403][  0]LogEngine: Initializing Engine...
-[2016.02.18-04.22.26:405][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.02.18-04.22.27:569][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-452284F5
-[2016.02.18-04.22.27:663][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.02.18-04.22.27:668][  0]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.02.18-04.22.27:699][  0]LogInit: FAudioDevice initialized.
-[2016.02.18-04.22.27:718][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/demo/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.02.18-04.22.27:722][  0]LogInit: Texture streaming: Enabled
-[2016.02.18-04.22.27:727][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.02.18-04.22.27:727][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.3-2866931+++depot+UE4-Releases+4.10
-[2016.02.18-04.22.27:727][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId dace05c344f3165ba6907d8fb994670d|36cf517b4d86471bb12e26a25eb81198|c0875fa7-5c44-4913-af9b-c7a689be2d5a
-[2016.02.18-04.22.27:727][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.02.18-04.22.27:734][  0]LogInit: Transaction tracking system initialized
-[2016.02.18-04.22.27:760][  0]BlueprintLog: New page: Editor Load
-[2016.02.18-04.22.27:833][  0]LocalizationService: Info Localization service is disabled
-[2016.02.18-04.22.27:889][  0]LogConsoleResponse:Display: 
-[2016.02.18-04.22.27:970][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.02.18-04.22.28:126][  0]LogFileCache: Scanning file cache for directory 'C:/Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/' took 0.01s
-[2016.02.18-04.22.28:126][  0]Cmd: MAP LOAD FILE="../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.02.18-04.22.28:126][  0]LightingResults: New page: Lighting Build
-[2016.02.18-04.22.28:128][  0]MapCheck: New page: Map Check
-[2016.02.18-04.22.28:128][  0]LightingResults: New page: Lighting Build
-[2016.02.18-04.22.28:137][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EE784BB00
-[2016.02.18-04.22.28:376][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2016.02.18-04.22.28:381][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.02.18-04.22.28:381][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.02.18-04.22.28:414][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.147ms to complete.
-[2016.02.18-04.22.28:414][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.288
-[2016.02.18-04.22.28:513][  0]LogCollectionManager: Loaded 0 collections in 0.001800 seconds
-[2016.02.18-04.22.28:554][  0]LogFileCache: Scanning file cache for directory 'C:/Users/demo/Documents/GitHub/practicevr/PracticeVR/Saved/Collections/' took 0.01s
-[2016.02.18-04.22.28:554][  0]LogFileCache: Scanning file cache for directory 'C:/Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/Developers/demo/Collections/' took 0.01s
-[2016.02.18-04.22.28:554][  0]LogFileCache: Scanning file cache for directory 'C:/Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/Collections/' took 0.01s
-[2016.02.18-04.22.28:554][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.02.18-04.22.28:560][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 1893 classes and 338 folders.
-[2016.02.18-04.22.28:565][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2016.02.18-04.22.28:598][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.02.18-04.22.28:601][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.02.18-04.22.28:638][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.02.18-04.22.28:640][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.02.18-04.22.28:663][  0]LogLoad: Full Startup: 5.49 seconds (BP compile: 0.03 seconds)
-[2016.02.18-04.22.28:673][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.02.18-04.22.28:717][  0]SourceControl: Info On branch master
-[2016.02.18-04.22.28:717][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
-[2016.02.18-04.22.28:717][  0]SourceControl: Info Changes not staged for commit:
-[2016.02.18-04.22.28:717][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
-[2016.02.18-04.22.28:717][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2016.02.18-04.22.28:717][  0]SourceControl: Info 	modified:   PracticeVR/Saved/Config/Windows/Editor.ini
-[2016.02.18-04.22.28:717][  0]SourceControl: Info 	modified:   PracticeVR/Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2016.02.18-04.22.28:717][  0]SourceControl: Info 	modified:   PracticeVR/Saved/Config/Windows/Engine.ini
-[2016.02.18-04.22.28:717][  0]SourceControl: Info 	modified:   PracticeVR/Saved/Logs/PracticeVR.log
-[2016.02.18-04.22.28:717][  0]SourceControl: Info Untracked files:
-[2016.02.18-04.22.28:717][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2016.02.18-04.22.28:717][  0]SourceControl: Info 	PracticeVR/Saved/Logs/PracticeVR-backup-2016.02.17-23.22.23.log
-[2016.02.18-04.22.28:717][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
-[2016.02.18-04.22.28:717][  0]LogContentStreaming: Texture pool size now 400 MB
-[2016.02.18-04.22.28:825][  0]LogRenderer: Reallocating scene render targets to support 740x536 (Frame:2).
-[2016.02.18-04.22.28:973][  2]LogAssetRegistry: Asset discovery search completed in 3.2788 seconds
-[2016.02.18-04.22.28:974][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.02.18-04.22.28:974][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
-[2016.02.18-04.22.57:012][ 12]LogAIModule: Creating AISystem for world VR_Level
-[2016.02.18-04.22.57:036][ 12]Cmd: MAP LOAD FILE="../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/Levels/VR_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.02.18-04.22.57:036][ 12]LightingResults: New page: Lighting Build
-[2016.02.18-04.22.57:048][ 12]LoadErrors: New page: Loading map: VR_Level.umap
-[2016.02.18-04.22.57:049][ 12]MapCheck: New page: Map Check
-[2016.02.18-04.22.57:049][ 12]LightingResults: New page: Lighting Build
-[2016.02.18-04.22.57:058][ 12]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006ED7193740
-[2016.02.18-04.22.57:088][ 12]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.02.18-04.22.57:109][ 12]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.02.18-04.22.57:146][ 12]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 36.241ms to complete.
-[2016.02.18-04.22.57:146][ 12]LogFileHelpers: Loading map 'VR_Level' took 0.111
-[2016.02.18-04.23.01:115][481]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.02.18-04.23.01:415][481]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 107 classes and 0 folders.
-[2016.02.18-04.23.23:739][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.02.18-04.23.23:739][986]PIE: New page: PIE session: VR_Level (Feb 17, 2016, 6:23:23 PM)
-[2016.02.18-04.23.23:739][986]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VR_Level
-[2016.02.18-04.23.23:741][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001740s)
-[2016.02.18-04.23.23:741][986]LogAIModule: Creating AISystem for world VR_Level
-[2016.02.18-04.23.23:741][986]LogPlayLevel: PIE: World Init took: (0.000620s)
-[2016.02.18-04.23.23:742][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VR_Level.VR_Level to /Game/Levels/UEDPIE_0_VR_Level.VR_Level (0.002564s)
-[2016.02.18-04.23.23:771][986]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.02.18-04.23.23:775][986]LogInit: FAudioDevice initialized.
-[2016.02.18-04.23.23:896][986]LogWorld: Game class is 'VR_GameMode_C'
-[2016.02.18-04.23.23:898][986]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VR_Level.VR_Level up for play (max tick rate 0) at 2016.02.17-23.23.23
-[2016.02.18-04.23.23:898][986]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.23.23:898][986]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.23.23:898][986]LogWorld: Bringing up level for play took: 0.001664
-[2016.02.18-04.23.23:926][986]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VR_Level 1.1
-[2016.02.18-04.23.23:929][987]LogRenderer: Reallocating scene render targets to support 3024x1680 (Frame:105).
-[2016.02.18-04.23.23:941][988]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.23.36:873][184]LogBlueprintUserMessages: [VR_Pawn_C_1] Hello
-[2016.02.18-04.23.37:181][191]LogBlueprintUserMessages: [VR_Pawn_C_1] Hello
-[2016.02.18-04.23.37:406][196]LogBlueprintUserMessages: [VR_Pawn_C_1] Hello
-[2016.02.18-04.23.37:629][201]LogBlueprintUserMessages: [VR_Pawn_C_1] Hello
-[2016.02.18-04.23.37:889][207]LogBlueprintUserMessages: [VR_Pawn_C_1] Hello
-[2016.02.18-04.23.38:161][213]LogBlueprintUserMessages: [VR_Pawn_C_1] Hello
-[2016.02.18-04.23.38:472][220]LogBlueprintUserMessages: [VR_Pawn_C_1] Hello
-[2016.02.18-04.23.38:735][226]LogBlueprintUserMessages: [VR_Pawn_C_1] Hello
-[2016.02.18-04.23.38:956][231]LogBlueprintUserMessages: [VR_Pawn_C_1] Hello
-[2016.02.18-04.23.39:227][237]LogBlueprintUserMessages: [VR_Pawn_C_1] Hello
-[2016.02.18-04.23.41:874][294]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E94CEE2A0
-[2016.02.18-04.25.52:403][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset" SILENT=true
-[2016.02.18-04.25.52:518][548]LogSavePackage: Save=101.186165ms
-[2016.02.18-04.25.52:518][548]LogSavePackage: Moving '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Saved/VR_PawnDE985F624FFDBFA23261719E37C700CC.tmp' to '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset'
-[2016.02.18-04.25.52:520][548]LogSavePackage: Total save time: 115.291551ms
-[2016.02.18-04.25.52:520][548]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset
-[2016.02.18-04.25.52:788][580]BlueprintLog: New page: Compile VR_Pawn
-[2016.02.18-04.25.52:882][580]BlueprintEditorCompileResults: Info [0209.71] Compile of VR_Pawn successful! [in 93 ms]
-[2016.02.18-04.25.59:145][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.02.18-04.25.59:146][324]PIE: New page: PIE session: VR_Level (Feb 17, 2016, 6:25:59 PM)
-[2016.02.18-04.25.59:146][324]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VR_Level
-[2016.02.18-04.25.59:148][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001993s)
-[2016.02.18-04.25.59:148][324]LogAIModule: Creating AISystem for world VR_Level
-[2016.02.18-04.25.59:148][324]LogPlayLevel: PIE: World Init took: (0.000750s)
-[2016.02.18-04.25.59:149][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VR_Level.VR_Level to /Game/Levels/UEDPIE_0_VR_Level.VR_Level (0.002948s)
-[2016.02.18-04.25.59:179][324]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.02.18-04.25.59:183][324]LogInit: FAudioDevice initialized.
-[2016.02.18-04.25.59:288][324]LogWorld: Game class is 'VR_GameMode_C'
-[2016.02.18-04.25.59:291][324]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VR_Level.VR_Level up for play (max tick rate 0) at 2016.02.17-23.25.59
-[2016.02.18-04.25.59:291][324]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.25.59:291][324]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.25.59:291][324]LogWorld: Bringing up level for play took: 0.001639
-[2016.02.18-04.25.59:308][324]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VR_Level 0.48
-[2016.02.18-04.25.59:325][326]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.26.01:985][383]LogBlueprintUserMessages: [VR_Pawn_C_16] Hello
-[2016.02.18-04.26.02:208][388]LogBlueprintUserMessages: [VR_Pawn_C_16] Hello
-[2016.02.18-04.26.02:476][394]LogBlueprintUserMessages: [VR_Pawn_C_16] Hello
-[2016.02.18-04.26.02:750][400]LogBlueprintUserMessages: [VR_Pawn_C_16] Hello
-[2016.02.18-04.26.03:040][407]LogBlueprintUserMessages: [VR_Pawn_C_16] Hello
-[2016.02.18-04.26.03:248][412]LogBlueprintUserMessages: [VR_Pawn_C_16] Hello
-[2016.02.18-04.26.12:517][622]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006ED9D6E700
-[2016.02.18-04.26.20:208][543]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 378/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.28.30:357][ 54]BlueprintLog: New page: Pre-Play auto-recompile
-[2016.02.18-04.28.30:370][ 54]LogPlayLevel: [PlayLevel] Compiling VR_Pawn before play...
-[2016.02.18-04.28.30:437][ 54]LogPlayLevel: PlayLevel: Blueprint regeneration took 79 ms (1 blueprints)
-[2016.02.18-04.28.30:465][ 54]PIE: New page: PIE session: VR_Level (Feb 17, 2016, 6:28:30 PM)
-[2016.02.18-04.28.30:465][ 54]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VR_Level
-[2016.02.18-04.28.30:467][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001729s)
-[2016.02.18-04.28.30:467][ 54]LogAIModule: Creating AISystem for world VR_Level
-[2016.02.18-04.28.30:467][ 54]LogPlayLevel: PIE: World Init took: (0.000686s)
-[2016.02.18-04.28.30:467][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VR_Level.VR_Level to /Game/Levels/UEDPIE_0_VR_Level.VR_Level (0.002593s)
-[2016.02.18-04.28.30:495][ 54]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.02.18-04.28.30:499][ 54]LogInit: FAudioDevice initialized.
-[2016.02.18-04.28.30:586][ 54]LogWorld: Game class is 'VR_GameMode_C'
-[2016.02.18-04.28.30:588][ 54]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VR_Level.VR_Level up for play (max tick rate 0) at 2016.02.17-23.28.30
-[2016.02.18-04.28.30:588][ 54]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.28.30:588][ 54]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.28.30:588][ 54]LogWorld: Bringing up level for play took: 0.001512
-[2016.02.18-04.28.30:594][ 54]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VR_Level -0.235
-[2016.02.18-04.28.30:607][ 56]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.29.08:953][911]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E80650D60
-[2016.02.18-04.30.52:932][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset" SILENT=true
-[2016.02.18-04.30.53:039][310]LogSavePackage: Save=99.277695ms
-[2016.02.18-04.30.53:039][310]LogSavePackage: Moving '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Saved/VR_Pawn0C6CA25D478E0C3590ACEA8EE713C4E9.tmp' to '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset'
-[2016.02.18-04.30.53:041][310]LogSavePackage: Total save time: 108.080201ms
-[2016.02.18-04.30.53:041][310]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset
-[2016.02.18-04.30.59:819][120]BlueprintLog: New page: Pre-Play auto-recompile
-[2016.02.18-04.30.59:831][120]LogPlayLevel: [PlayLevel] Compiling VR_Pawn before play...
-[2016.02.18-04.30.59:898][120]LogPlayLevel: PlayLevel: Blueprint regeneration took 79 ms (1 blueprints)
-[2016.02.18-04.30.59:921][120]PIE: New page: PIE session: VR_Level (Feb 17, 2016, 6:30:59 PM)
-[2016.02.18-04.30.59:921][120]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VR_Level
-[2016.02.18-04.30.59:923][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001912s)
-[2016.02.18-04.30.59:924][120]LogAIModule: Creating AISystem for world VR_Level
-[2016.02.18-04.30.59:924][120]LogPlayLevel: PIE: World Init took: (0.000800s)
-[2016.02.18-04.30.59:924][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VR_Level.VR_Level to /Game/Levels/UEDPIE_0_VR_Level.VR_Level (0.002932s)
-[2016.02.18-04.30.59:950][120]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.02.18-04.30.59:955][120]LogInit: FAudioDevice initialized.
-[2016.02.18-04.31.00:049][120]LogWorld: Game class is 'VR_GameMode_C'
-[2016.02.18-04.31.00:051][120]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VR_Level.VR_Level up for play (max tick rate 0) at 2016.02.17-23.31.00
-[2016.02.18-04.31.00:051][120]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.31.00:051][120]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.31.00:051][120]LogWorld: Bringing up level for play took: 0.001840
-[2016.02.18-04.31.00:059][120]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VR_Level 1.227
-[2016.02.18-04.31.00:074][122]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.31.39:456][  5]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.31.40:294][ 22]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E80651260
-[2016.02.18-04.37.34:221][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset" SILENT=true
-[2016.02.18-04.37.34:338][ 23]LogSavePackage: Save=109.570992ms
-[2016.02.18-04.37.34:338][ 23]LogSavePackage: Moving '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Saved/VR_PawnD57BB7094939CDEA92028691EF1A66DD.tmp' to '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset'
-[2016.02.18-04.37.34:340][ 23]LogSavePackage: Total save time: 118.154537ms
-[2016.02.18-04.37.34:340][ 23]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset
-[2016.02.18-04.37.35:014][103]BlueprintLog: New page: Compile VR_Pawn
-[2016.02.18-04.37.35:108][103]BlueprintEditorCompileResults: Info [0911.92] Compile of VR_Pawn successful! [in 93 ms]
-[2016.02.18-04.37.43:782][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.02.18-04.37.43:782][138]PIE: New page: PIE session: VR_Level (Feb 17, 2016, 6:37:43 PM)
-[2016.02.18-04.37.43:782][138]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VR_Level
-[2016.02.18-04.37.43:785][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002716s)
-[2016.02.18-04.37.43:785][138]LogAIModule: Creating AISystem for world VR_Level
-[2016.02.18-04.37.43:786][138]LogPlayLevel: PIE: World Init took: (0.001039s)
-[2016.02.18-04.37.43:786][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VR_Level.VR_Level to /Game/Levels/UEDPIE_0_VR_Level.VR_Level (0.003934s)
-[2016.02.18-04.37.43:813][138]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.02.18-04.37.43:818][138]LogInit: FAudioDevice initialized.
-[2016.02.18-04.37.43:921][138]LogWorld: Game class is 'VR_GameMode_C'
-[2016.02.18-04.37.43:924][138]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VR_Level.VR_Level up for play (max tick rate 0) at 2016.02.17-23.37.43
-[2016.02.18-04.37.43:924][138]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.37.43:924][138]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.37.43:924][138]LogWorld: Bringing up level for play took: 0.001759
-[2016.02.18-04.37.43:947][138]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VR_Level 1.111
-[2016.02.18-04.37.43:959][140]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.38.04:023][591]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.38.06:424][645]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E94EAAE80
-[2016.02.18-04.39.39:951][633]BlueprintLog: New page: Pre-Play auto-recompile
-[2016.02.18-04.39.39:964][633]LogPlayLevel: [PlayLevel] Compiling VR_Pawn before play...
-[2016.02.18-04.39.40:031][633]LogPlayLevel: PlayLevel: Blueprint regeneration took 80 ms (1 blueprints)
-[2016.02.18-04.39.40:060][633]PIE: New page: PIE session: VR_Level (Feb 17, 2016, 6:39:40 PM)
-[2016.02.18-04.39.40:060][633]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VR_Level
-[2016.02.18-04.39.40:062][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001823s)
-[2016.02.18-04.39.40:062][633]LogAIModule: Creating AISystem for world VR_Level
-[2016.02.18-04.39.40:063][633]LogPlayLevel: PIE: World Init took: (0.000787s)
-[2016.02.18-04.39.40:063][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VR_Level.VR_Level to /Game/Levels/UEDPIE_0_VR_Level.VR_Level (0.002812s)
-[2016.02.18-04.39.40:091][633]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.02.18-04.39.40:095][633]LogInit: FAudioDevice initialized.
-[2016.02.18-04.39.40:180][633]LogWorld: Game class is 'VR_GameMode_C'
-[2016.02.18-04.39.40:182][633]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VR_Level.VR_Level up for play (max tick rate 0) at 2016.02.17-23.39.40
-[2016.02.18-04.39.40:182][633]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.39.40:182][633]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.39.40:182][633]LogWorld: Bringing up level for play took: 0.001562
-[2016.02.18-04.39.40:188][633]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VR_Level -0.651
-[2016.02.18-04.39.40:201][635]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.39.44:119][723]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.39.55:938][988]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006F1781DA80
-[2016.02.18-04.40.25:677][498]BlueprintLog: New page: Pre-Play auto-recompile
-[2016.02.18-04.40.25:689][498]LogPlayLevel: [PlayLevel] Compiling VR_Pawn before play...
-[2016.02.18-04.40.25:756][498]LogPlayLevel: PlayLevel: Blueprint regeneration took 79 ms (1 blueprints)
-[2016.02.18-04.40.25:791][498]PIE: New page: PIE session: VR_Level (Feb 17, 2016, 6:40:25 PM)
-[2016.02.18-04.40.25:791][498]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VR_Level
-[2016.02.18-04.40.25:794][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002939s)
-[2016.02.18-04.40.25:794][498]LogAIModule: Creating AISystem for world VR_Level
-[2016.02.18-04.40.25:795][498]LogPlayLevel: PIE: World Init took: (0.000926s)
-[2016.02.18-04.40.25:795][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VR_Level.VR_Level to /Game/Levels/UEDPIE_0_VR_Level.VR_Level (0.004086s)
-[2016.02.18-04.40.25:821][498]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.02.18-04.40.25:826][498]LogInit: FAudioDevice initialized.
-[2016.02.18-04.40.25:911][498]LogWorld: Game class is 'VR_GameMode_C'
-[2016.02.18-04.40.25:913][498]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VR_Level.VR_Level up for play (max tick rate 0) at 2016.02.17-23.40.25
-[2016.02.18-04.40.25:913][498]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.40.25:913][498]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.40.25:914][498]LogWorld: Bringing up level for play took: 0.001902
-[2016.02.18-04.40.25:921][498]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VR_Level 1.081
-[2016.02.18-04.40.25:932][500]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.40.28:906][567]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.40.35:423][713]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.40.40:367][824]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.40.42:239][865]LogBlueprintUserMessages: [VR_Pawn_C_16] RighthandTouched
-[2016.02.18-04.40.44:369][912]LogBlueprintUserMessages: [VR_Pawn_C_16] RighthandTouched
-[2016.02.18-04.40.44:773][921]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.40.47:049][972]LogBlueprintUserMessages: [VR_Pawn_C_16] RighthandTouched
-[2016.02.18-04.40.49:959][ 37]LogBlueprintUserMessages: [VR_Pawn_C_16] RighthandTouched
-[2016.02.18-04.40.51:202][ 65]LogBlueprintUserMessages: [VR_Pawn_C_16] RighthandTouched
-[2016.02.18-04.40.52:930][104]LogBlueprintUserMessages: [VR_Pawn_C_16] RighthandTouched
-[2016.02.18-04.40.59:819][260]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.41.05:458][385]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EE181B9C0
-[2016.02.18-04.41.22:220][390]BlueprintLog: New page: Pre-Play auto-recompile
-[2016.02.18-04.41.22:232][390]LogPlayLevel: [PlayLevel] Compiling VR_Pawn before play...
-[2016.02.18-04.41.22:301][390]LogPlayLevel: PlayLevel: Blueprint regeneration took 81 ms (1 blueprints)
-[2016.02.18-04.41.22:332][390]PIE: New page: PIE session: VR_Level (Feb 17, 2016, 6:41:22 PM)
-[2016.02.18-04.41.22:332][390]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VR_Level
-[2016.02.18-04.41.22:334][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002267s)
-[2016.02.18-04.41.22:335][390]LogAIModule: Creating AISystem for world VR_Level
-[2016.02.18-04.41.22:335][390]LogPlayLevel: PIE: World Init took: (0.001013s)
-[2016.02.18-04.41.22:336][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VR_Level.VR_Level to /Game/Levels/UEDPIE_0_VR_Level.VR_Level (0.003674s)
-[2016.02.18-04.41.22:363][390]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.02.18-04.41.22:367][390]LogInit: FAudioDevice initialized.
-[2016.02.18-04.41.22:452][390]LogWorld: Game class is 'VR_GameMode_C'
-[2016.02.18-04.41.22:455][390]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VR_Level.VR_Level up for play (max tick rate 0) at 2016.02.17-23.41.22
-[2016.02.18-04.41.22:455][390]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.41.22:455][390]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.41.22:455][390]LogWorld: Bringing up level for play took: 0.001567
-[2016.02.18-04.41.22:461][390]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VR_Level -0.381
-[2016.02.18-04.41.22:475][392]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.41.25:350][456]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.41.29:382][546]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.41.34:737][665]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E955AB1A0
-[2016.02.18-04.42.31:275][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/VR_Pawn" FILE="../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset" SILENT=true
-[2016.02.18-04.42.31:385][387]LogSavePackage: Save=104.513298ms
-[2016.02.18-04.42.31:385][387]LogSavePackage: Moving '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Saved/VR_Pawn8F33DE4449060342ED52389539C7A134.tmp' to '../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset'
-[2016.02.18-04.42.31:388][387]LogSavePackage: Total save time: 111.590084ms
-[2016.02.18-04.42.31:388][387]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/BluePrints/VR_Pawn.uasset
-[2016.02.18-04.42.32:724][545]BlueprintLog: New page: Pre-Play auto-recompile
-[2016.02.18-04.42.32:737][545]LogPlayLevel: [PlayLevel] Compiling VR_Pawn before play...
-[2016.02.18-04.42.32:803][545]LogPlayLevel: PlayLevel: Blueprint regeneration took 78 ms (1 blueprints)
-[2016.02.18-04.42.32:827][545]PIE: New page: PIE session: VR_Level (Feb 17, 2016, 6:42:32 PM)
-[2016.02.18-04.42.32:827][545]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VR_Level
-[2016.02.18-04.42.32:829][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001700s)
-[2016.02.18-04.42.32:830][545]LogAIModule: Creating AISystem for world VR_Level
-[2016.02.18-04.42.32:830][545]LogPlayLevel: PIE: World Init took: (0.000889s)
-[2016.02.18-04.42.32:830][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VR_Level.VR_Level to /Game/Levels/UEDPIE_0_VR_Level.VR_Level (0.002761s)
-[2016.02.18-04.42.32:855][545]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.02.18-04.42.32:860][545]LogInit: FAudioDevice initialized.
-[2016.02.18-04.42.32:945][545]LogWorld: Game class is 'VR_GameMode_C'
-[2016.02.18-04.42.32:947][545]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VR_Level.VR_Level up for play (max tick rate 0) at 2016.02.17-23.42.32
-[2016.02.18-04.42.32:948][545]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.42.32:948][545]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.42.32:948][545]LogWorld: Bringing up level for play took: 0.001670
-[2016.02.18-04.42.32:954][545]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VR_Level 0.111
-[2016.02.18-04.42.32:970][547]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.42.35:544][604]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.42.47:902][880]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.42.49:199][908]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006E955CBC40
-[2016.02.18-04.43.15:010][969]BlueprintLog: New page: Pre-Play auto-recompile
-[2016.02.18-04.43.15:021][969]LogPlayLevel: [PlayLevel] Compiling VR_Pawn before play...
-[2016.02.18-04.43.15:088][969]LogPlayLevel: PlayLevel: Blueprint regeneration took 78 ms (1 blueprints)
-[2016.02.18-04.43.15:118][969]PIE: New page: PIE session: VR_Level (Feb 17, 2016, 6:43:15 PM)
-[2016.02.18-04.43.15:118][969]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VR_Level
-[2016.02.18-04.43.15:120][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001985s)
-[2016.02.18-04.43.15:121][969]LogAIModule: Creating AISystem for world VR_Level
-[2016.02.18-04.43.15:121][969]LogPlayLevel: PIE: World Init took: (0.000867s)
-[2016.02.18-04.43.15:122][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VR_Level.VR_Level to /Game/Levels/UEDPIE_0_VR_Level.VR_Level (0.003182s)
-[2016.02.18-04.43.15:148][969]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.02.18-04.43.15:153][969]LogInit: FAudioDevice initialized.
-[2016.02.18-04.43.15:238][969]LogWorld: Game class is 'VR_GameMode_C'
-[2016.02.18-04.43.15:240][969]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VR_Level.VR_Level up for play (max tick rate 0) at 2016.02.17-23.43.15
-[2016.02.18-04.43.15:240][969]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.43.15:240][969]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.43.15:240][969]LogWorld: Bringing up level for play took: 0.001537
-[2016.02.18-04.43.15:246][969]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VR_Level 0.402
-[2016.02.18-04.43.15:256][971]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.43.18:795][ 48]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 367/350 MB (ok in editor, bad on fixed memory platform)
-[2016.02.18-04.44.09:045][164]LogBlueprintUserMessages: [VR_Pawn_C_16] RighthandTouched
-[2016.02.18-04.44.15:188][299]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006EEA554680
-[2016.02.18-04.44.41:523][447]BlueprintLog: New page: Pre-Play auto-recompile
-[2016.02.18-04.44.41:534][447]LogPlayLevel: [PlayLevel] Compiling VR_Pawn before play...
-[2016.02.18-04.44.41:598][447]LogPlayLevel: PlayLevel: Blueprint regeneration took 74 ms (1 blueprints)
-[2016.02.18-04.44.41:627][447]PIE: New page: PIE session: VR_Level (Feb 17, 2016, 6:44:41 PM)
-[2016.02.18-04.44.41:627][447]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VR_Level
-[2016.02.18-04.44.41:629][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001812s)
-[2016.02.18-04.44.41:630][447]LogAIModule: Creating AISystem for world VR_Level
-[2016.02.18-04.44.41:630][447]LogPlayLevel: PIE: World Init took: (0.000590s)
-[2016.02.18-04.44.41:630][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VR_Level.VR_Level to /Game/Levels/UEDPIE_0_VR_Level.VR_Level (0.002553s)
-[2016.02.18-04.44.41:659][447]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.02.18-04.44.41:664][447]LogInit: FAudioDevice initialized.
-[2016.02.18-04.44.41:745][447]LogWorld: Game class is 'VR_GameMode_C'
-[2016.02.18-04.44.41:747][447]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VR_Level.VR_Level up for play (max tick rate 0) at 2016.02.17-23.44.41
-[2016.02.18-04.44.41:747][447]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameSession_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.44.41:748][447]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.18-04.44.41:748][447]LogWorld: Bringing up level for play took: 0.001666
-[2016.02.18-04.44.41:753][447]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VR_Level 0.
+﻿[2016.02.18-17.13.11:649][  0]Log file open, 02/18/16 12:13:11
+[2016.02.18-17.13.11:649][  0]LogInit:Display: Running engine for game: PracticeVR
+[2016.02.18-17.13.11:649][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.18-17.13.11:649][  0]LogInit:Display: RandInit(-269537590) SRandInit(-269537588).
+[2016.02.18-17.13.11:649][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.02.18-17.13.11:649][  0]LogStats: Stats thread started at 0.067783
+[2016.02.18-17.13.11:649][  0]LogInit: Version: 4.10.3-2866931+++depot+UE4-Releases+4.10
+[2016.02.18-17.13.11:649][  0]LogInit: API Version: 2758231
+[2016.02.18-17.13.11:649][  0]LogInit: Compiled (64-bit): Feb 15 2016 08:20:45
+[2016.02.18-17.13.11:649][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.18-17.13.11:649][  0]LogInit: Build Configuration: Development
+[2016.02.18-17.13.11:649][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.18-17.13.11:649][  0]LogInit: Command line:  
+[2016.02.18-17.13.11:649][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.18-17.13.11:649][  0]LogInit: Rocket: 1
+[2016.02.18-17.13.11:657][  0]LogInit: Using libcurl 7.41.0
+[2016.02.18-17.13.11:657][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.18-17.13.11:657][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.18-17.13.11:657][  0]LogInit:  - other features:
+[2016.02.18-17.13.11:657][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.18-17.13.11:657][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.18-17.13.11:657][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.18-17.13.11:657][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.18-17.13.11:657][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.18-17.13.11:657][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.18-17.13.11:657][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.18-17.13.11:657][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.18-17.13.11:657][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.18-17.13.11:657][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.18-17.13.11:662][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.18-17.13.11:667][  0]LogInit: Object subsystem initialized
+[2016.02.18-17.13.11:668][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.18-17.13.11:668][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.18-17.13.11:676][  0]LogInit: Computer: ETC-WIN10-006
+[2016.02.18-17.13.11:676][  0]LogInit: User: demo
+[2016.02.18-17.13.11:676][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.02.18-17.13.11:676][  0]LogInit: High frequency timer resolution =3.507525 MHz
+[2016.02.18-17.13.11:676][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.02.18-17.13.11:676][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.18-17.13.11:676][  0]LogMemory: Process Physical Memory: 55.98 MB used, 55.98 MB peak
+[2016.02.18-17.13.11:676][  0]LogMemory: Process Virtual Memory: 58.73 MB used, 58.73 MB peak
+[2016.02.18-17.13.11:676][  0]LogMemory: Physical Memory: 4140.20 MB used, 16326.10 MB total
+[2016.02.18-17.13.11:676][  0]LogMemory: Virtual Memory: 380.62 MB used, 134217728.00 MB total
+[2016.02.18-17.13.11:700][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.18-17.13.12:074][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 745 (Feature Level 11_0)
+[2016.02.18-17.13.12:074][  0]LogD3D11RHI: Adapter has 4035MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 2 output[s]
+[2016.02.18-17.13.12:075][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.18-17.13.12:075][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 8163MB of shared system memory, 0 output[s]
+[2016.02.18-17.13.12:075][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.18-17.13.12:077][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.18-17.13.12:077][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.18-17.13.12:089][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.18-17.13.12:100][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Intermediate/Shaders/WorkingDirectory/4920/).
+[2016.02.18-17.13.12:100][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/demo/AppData/Local/Temp/UnrealShaderWorkingDir/AB7BED5D4A24BCF3E9F8AE8ECFC72923/'.
+[2016.02.18-17.13.12:100][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.18-17.13.12:695][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.18-17.13.12:699][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.18-17.13.12:703][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.18-17.13.12:707][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.18-17.13.12:710][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.18-17.13.12:712][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.18-17.13.12:715][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.18-17.13.12:717][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.18-17.13.12:719][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.18-17.13.12:721][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.18-17.13.12:723][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.18-17.13.12:727][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.18-17.13.12:727][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.18-17.13.12:728][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.18-17.13.12:743][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.18-17.13.12:745][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.18-17.13.12:747][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.18-17.13.12:749][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.18-17.13.12:750][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.18-17.13.12:814][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.18-17.13.12:851][  0]LogDerivedDataCache: Loaded boot cache 0.04s 41MB C:/Users/demo/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.18-17.13.12:851][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/demo/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.18-17.13.12:851][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.18-17.13.12:851][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.18-17.13.12:851][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.18-17.13.12:851][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.18-17.13.12:895][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.18-17.13.12:908][  0]LogDerivedDataCache: Using Local data cache path C:/Users/demo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.18-17.13.13:060][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.18-17.13.13:062][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.18-17.13.13:142][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.18-17.13.13:142][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.18-17.13.13:300][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.18-17.13.13:841][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.18-17.13.13:970][  0]LogAssetRegistry: FAssetRegistry took 0.0111 seconds to start up
+[2016.02.18-17.13.14:088][  0]SourceControl: Info Source control is disabled
+[2016.02.18-17.13.14:604][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.02.18-17.13.14:604][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.02.18-17.13.14:650][  0]LogEngine: Initializing Engine...
+[2016.02.18-17.13.14:651][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.18-17.13.15:798][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-452284F5
+[2016.02.18-17.13.15:894][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.18-17.13.15:899][  0]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.18-17.13.15:910][  0]LogInit: FAudioDevice initialized.
+[2016.02.18-17.13.15:928][  0]LogDerivedDataCache: Saved boot cache 0.02s 41MB C:/Users/demo/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.18-17.13.15:933][  0]LogInit: Texture streaming: Enabled
+[2016.02.18-17.13.15:938][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.18-17.13.15:938][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.3-2866931+++depot+UE4-Releases+4.10
+[2016.02.18-17.13.15:938][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId dace05c344f3165ba6907d8fb994670d|36cf517b4d86471bb12e26a25eb81198|c0875fa7-5c44-4913-af9b-c7a689be2d5a
+[2016.02.18-17.13.15:938][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.18-17.13.15:945][  0]LogInit: Transaction tracking system initialized
+[2016.02.18-17.13.15:968][  0]BlueprintLog: New page: Editor Load
+[2016.02.18-17.13.16:034][  0]LocalizationService: Info Localization service is disabled
+[2016.02.18-17.13.16:093][  0]LogConsoleResponse:Display: 
+[2016.02.18-17.13.16:174][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.18-17.13.16:325][  0]LogFileCache: Scanning file cache for directory 'C:/Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/' took 0.01s
+[2016.02.18-17.13.16:325][  0]Cmd: MAP LOAD FILE="../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.18-17.13.16:325][  0]LightingResults: New page: Lighting Build
+[2016.02.18-17.13.16:328][  0]MapCheck: New page: Map Check
+[2016.02.18-17.13.16:328][  0]LightingResults: New page: Lighting Build
+[2016.02.18-17.13.16:336][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BC84BBBB00
+[2016.02.18-17.13.16:579][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.02.18-17.13.16:584][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.18-17.13.16:585][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.18-17.13.16:617][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.084ms to complete.
+[2016.02.18-17.13.16:617][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.292
+[2016.02.18-17.13.16:720][  0]LogCollectionManager: Loaded 0 collections in 0.002850 seconds
+[2016.02.18-17.13.16:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/demo/Documents/GitHub/practicevr/PracticeVR/Saved/Collections/' took 0.01s
+[2016.02.18-17.13.16:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/Developers/demo/Collections/' took 0.01s
+[2016.02.18-17.13.16:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/Collections/' took 0.01s
+[2016.02.18-17.13.16:759][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.02.18-17.13.16:765][  0]LogContentBrowser: Native class hierarchy populated in 0.0055 seconds. Added 1893 classes and 338 folders.
+[2016.02.18-17.13.16:770][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2016.02.18-17.13.16:800][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.02.18-17.13.16:804][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2016.02.18-17.13.16:841][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.18-17.13.16:844][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.18-17.13.16:866][  0]LogLoad: Full Startup: 5.53 seconds (BP compile: 0.03 seconds)
+[2016.02.18-17.13.16:877][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.18-17.13.16:916][  0]SourceControl: Info On branch master
+[2016.02.18-17.13.16:916][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2016.02.18-17.13.16:916][  0]SourceControl: Info Changes not staged for commit:
+[2016.02.18-17.13.16:916][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2016.02.18-17.13.16:916][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	modified:   PracticeVR/Content/BluePrints/VR_Pawn.uasset
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	modified:   PracticeVR/Content/Levels/VR_Level.umap
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	modified:   PracticeVR/Intermediate/CachedAssetRegistry.bin
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	modified:   PracticeVR/Saved/AutoScreenshot.png
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	modified:   PracticeVR/Saved/Autosaves/PackageRestoreData.json
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	modified:   PracticeVR/Saved/Config/Windows/Editor.ini
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	modified:   PracticeVR/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	modified:   PracticeVR/Saved/Config/Windows/Engine.ini
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	modified:   PracticeVR/Saved/Config/WorldState/3868225906.json
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	modified:   PracticeVR/Saved/Logs/PracticeVR.log
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	modified:   PracticeVR/Saved/Logs/PracticeVR_2.log
+[2016.02.18-17.13.16:916][  0]SourceControl: Info Untracked files:
+[2016.02.18-17.13.16:916][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	PracticeVR/Saved/Backup/VR_Level_2016-02-18-11-43-15.umap
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	PracticeVR/Saved/Backup/VR_Level_2016-02-18-12-10-45.umap
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	PracticeVR/Saved/Backup/VR_Pawn_2016-02-18-12-00-18.uasset
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	PracticeVR/Saved/Backup/VR_Pawn_2016-02-18-12-08-40.uasset
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	PracticeVR/Saved/Logs/PracticeVR-backup-2016.02.18-11.41.47.log
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	PracticeVR/Saved/Logs/PracticeVR-backup-2016.02.18-12.13.11.log
+[2016.02.18-17.13.16:916][  0]SourceControl: Info 	PracticeVR/Saved/Logs/PracticeVR_2-backup-2016.02.18-12.00.29.log
+[2016.02.18-17.13.16:916][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2016.02.18-17.13.16:916][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.02.18-17.13.17:019][  0]LogRenderer: Reallocating scene render targets to support 704x488 (Frame:2).
+[2016.02.18-17.13.17:146][  2]LogAssetRegistry: Asset discovery search completed in 3.1870 seconds
+[2016.02.18-17.13.17:146][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.02.18-17.13.17:146][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
+[2016.02.18-17.13.40:661][924]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.02.18-17.13.40:682][924]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.02.18-17.13.40:700][924]LogAIModule: Creating AISystem for world VR_Level
+[2016.02.18-17.13.40:725][924]Cmd: MAP LOAD FILE="../../../../../../Users/demo/Documents/GitHub/practicevr/PracticeVR/Content/Levels/VR_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.18-17.13.40:725][924]LightingResults: New page: Lighting Build
+[2016.02.18-17.13.40:737][924]LoadErrors: New page: Loading map: VR_Level.umap
+[2016.02.18-17.13.40:738][924]MapCheck: New page: Map Check
+[2016.02.18-17.13.40:738][924]LightingResults: New page: Lighting Build
+[2016.02.18-17.13.40:749][924]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BC851539C0
+[2016.02.18-17.13.40:778][924]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.18-17.13.40:799][924]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.18-17.13.40:833][924]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 33.713ms to complete.
+[2016.02.18-17.13.40:833][924]LogFileHelpers: Loading map 'VR_Level' took 0.109
+[2016.02.18-17.13.44:144][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.18-17.13.44:144][317]PIE: New page: PIE session: VR_Level (Feb 18, 2016, 7:13:44 AM)
+[2016.02.18-17.13.44:144][317]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_VR_Level
+[2016.02.18-17.13.44:146][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002092s)
+[2016.02.18-17.13.44:147][317]LogAIModule: Creating AISystem for world VR_Level
+[2016.02.18-17.13.44:147][317]LogPlayLevel: PIE: World Init took: (0.000563s)
+[2016.02.18-17.13.44:147][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/VR_Level.VR_Level to /Game/Levels/UEDPIE_0_VR_Level.VR_Level (0.002826s)
+[2016.02.18-17.13.44:163][317]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.18-17.13.44:167][317]LogInit: FAudioDevice initialized.
+[2016.02.18-17.13.44:278][317]LogWorld: Game class is 'VR_GameMode_C'
+[2016.02.18-17.13.44:281][317]LogWorld: Bringing World /Game/Levels/UEDPIE_0_VR_Level.VR_Level up for play (max tick rate 0) at 2016.02.18-12.13.44
+[2016.02.18-17.13.44:281][317]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.18-17.13.44:282][317]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_VR_Level.VR_Level:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.18-17.13.44:282][317]LogWorld: Bringing up level for play took: 0.002460
+[2016.02.18-17.13.44:297][317]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_VR_Level 0.969
+[2016.02.18-17.13.44:299][317]LogRenderer: Reallocating scene render targets to support 984x684 (Frame:11).
+[2016.02.18-17.13.44:315][318]LogRenderer: Reallocating scene render targets to support 3024x1680 (Frame:12).
+[2016.02.18-17.13.44:328][319]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 369/350 MB (ok in editor, bad on fixed memory platform)
+[2016.02.18-17.13.50:989][339]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 369/350 MB (ok in editor, bad on fixed memory platform)
